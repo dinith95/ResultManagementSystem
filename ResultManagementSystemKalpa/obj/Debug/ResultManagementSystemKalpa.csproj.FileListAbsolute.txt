@@ -1,0 +1,15 @@
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLectures.resources
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmstudents.resources
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
