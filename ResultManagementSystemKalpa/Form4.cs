@@ -173,17 +173,17 @@ namespace ResultManagementSystemKalpa
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-            label2.BackColor = Color.AntiqueWhite;
+            labelAddMember.BackColor = Color.AntiqueWhite;
         }
 
         private void label3_MouseEnter(object sender, EventArgs e)
         {
-            label3.BackColor = Color.AntiqueWhite;
+            labelUpdateInformation.BackColor = Color.AntiqueWhite;
         }
 
         private void label6_MouseEnter(object sender, EventArgs e)
         {
-            label6.BackColor = Color.AntiqueWhite;
+            labelDeleteRecords.BackColor = Color.AntiqueWhite;
         }
 
         private void label2_DragLeave(object sender, EventArgs e)
@@ -193,17 +193,17 @@ namespace ResultManagementSystemKalpa
 
         private void label2_MouseLeave(object sender, EventArgs e)
         {
-            label2.BackColor = Color.Gainsboro;
+            labelAddMember.BackColor = Color.Gainsboro;
         }
 
         private void label3_MouseLeave(object sender, EventArgs e)
         {
-            label3.BackColor = Color.Gainsboro;
+            labelUpdateInformation.BackColor = Color.Gainsboro;
         }
 
         private void label6_MouseLeave(object sender, EventArgs e)
         {
-            label6.BackColor = Color.Gainsboro;
+            labelDeleteRecords.BackColor = Color.Gainsboro;
         }
 
         private void labelstaff2_MouseEnter(object sender, EventArgs e)
