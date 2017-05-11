@@ -46,16 +46,16 @@ namespace ResultManagementSystemKalpa
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if ((textBox1.Text == "kalpa")&&(textBox2.Text=="kalpa"))
+            if ((textBox1.Text == "k")&&(textBox2.Text=="k"))
             {
                 this.Hide();
-                frmLectures frm2 = new frmLectures();
+                frmStudents frm2 = new frmStudents();
                 frm2.Show();
             }
-            if ((textBox1.Text == "wijesooriya") && (textBox2.Text == "wijesooriya"))
+            if ((textBox1.Text == "w") && (textBox2.Text == "w"))
             {
                 this.Hide();
-                frmstudents frm3 = new frmstudents();
+                frmLecturers frm3 = new frmLecturers();
                 frm3.Show();
             }
             if ((textBox1.Text == "") && (textBox2.Text == ""))

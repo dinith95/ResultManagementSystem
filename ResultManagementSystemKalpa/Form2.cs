@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace ResultManagementSystemKalpa
 {
-    public partial class frmLectures : Form
+    public partial class frmStudents : Form
     {
-        public frmLectures()
+        public frmStudents()
         {
             InitializeComponent();
         }

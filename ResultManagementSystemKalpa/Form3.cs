@@ -10,16 +10,22 @@ using System.Windows.Forms;
 
 namespace ResultManagementSystemKalpa
 {
-    public partial class frmstudents : Form
+    // the label on the bottom is given relavant name and 1
+    // label which on top is given relavant name and 2
+    public partial class frmLecturers : Form
     {
-        public frmstudents()
+        public frmLecturers()
         {
             InitializeComponent();
-            label5.Visible = false;
-            label6.Visible = false;
-            label7.Visible = false;
-            panel1.Visible = true;
-            panel3.Visible = false;
+            labelProfile2.Visible = false;
+            labelResManager2.Visible = false;
+            labelAnalize2.Visible = false;
+            panelProfile.Visible = true;
+           
+            panelResultsManager.Visible = false;
+            panelAnalizeFeedback.Visible = false;
+           
+
         }
 
         private void frmstudents_Load(object sender, EventArgs e)
@@ -41,12 +47,12 @@ namespace ResultManagementSystemKalpa
 
         private void label1_MouseEnter(object sender, EventArgs e)
         {
-            label5.Visible = true;
+            //labelProfile2.Visible = true;
         }
 
         private void label5_MouseLeave(object sender, EventArgs e)
         {
-            label5.Visible = false;
+           // labelProfile2.Visible = false;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -61,28 +67,28 @@ namespace ResultManagementSystemKalpa
 
         private void label6_MouseLeave(object sender, EventArgs e)
         {
-            label6.Visible = false;
+            //labelResManager2.Visible = false;
         }
 
         private void label3_MouseEnter(object sender, EventArgs e)
         {
-            label6.Visible = true;
+            //labelResManager2.Visible = true;
         }
 
         private void label7_MouseLeave(object sender, EventArgs e)
         {
-            label7.Visible = false;
+            //labelAnalize2.Visible = false;
         }
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-            label7.Visible = true;
+            ///labelAnalize2.Visible = true;
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            panel3.Visible = false;
+            //panelProfile.Visible = false;
+           // panelResultsManager.Visible = false;
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -92,20 +98,56 @@ namespace ResultManagementSystemKalpa
 
         private void label13_Click(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            panel3.Visible = true;
+           // panelProfile.Visible = false;
+            //panelResultsManager.Visible = true;
         }
 
         private void label6_Click(object sender, EventArgs e)
         {
            
-            panel3.Visible = true;
+            //panelResultsManager.Visible = true;
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
-            panel3.Visible = false;
-            panel1.Visible = true;
+            //panelResultsManager.Visible = false;
+            //panelProfile.Visible = true;
+        }
+
+        private void labelProfile1_MouseEnter(object sender, EventArgs e)
+        {
+            labelProfile2.Visible = true;
+        }
+
+        private void labelProfile2_MouseLeave(object sender, EventArgs e)
+        {
+            labelProfile2.Visible = false; 
+        }
+
+        private void labelProfile2_Click(object sender, EventArgs e)
+        {
+            panelProfile.Show();
+            panelResultsManager.Hide();
+            panelAnalizeFeedback.Hide() ;
+        }
+
+        private void labelResultsManager1_MouseEnter(object sender, EventArgs e)
+        {
+            labelResManager2.Visible = true;
+        }
+
+        private void labelResultsManager2_MouseLeave(object sender, EventArgs e)
+        {
+            labelResManager2.Visible = false; 
+        }
+
+        private void labelResultsManager2_Click(object sender, EventArgs e)
+        {
+           
+             panelResultsManager.Show();
+            panelAnalizeFeedback.Hide();
+             panelProfile.Hide();
+            
         }
     }
 }

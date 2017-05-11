@@ -13,3 +13,15 @@ C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa
 C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
 C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
 C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmStudents.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLecturers.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
