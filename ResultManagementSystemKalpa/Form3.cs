@@ -82,7 +82,7 @@ namespace ResultManagementSystemKalpa
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-            ///labelAnalize2.Visible = true;
+           labelAnalize2.Visible = true;
         }
 
         private void label7_Click(object sender, EventArgs e)

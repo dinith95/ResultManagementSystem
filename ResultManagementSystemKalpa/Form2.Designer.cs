@@ -39,22 +39,20 @@
             this.labelback1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.labelback1.Font = new System.Drawing.Font("Sitka Small", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelback1.ForeColor = System.Drawing.Color.DarkBlue;
-            this.labelback1.Location = new System.Drawing.Point(1386, 862);
-            this.labelback1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelback1.Location = new System.Drawing.Point(924, 560);
             this.labelback1.Name = "labelback1";
-            this.labelback1.Size = new System.Drawing.Size(89, 29);
+            this.labelback1.Size = new System.Drawing.Size(59, 19);
             this.labelback1.TabIndex = 1;
             this.labelback1.Text = "<<Back";
             this.labelback1.Click += new System.EventHandler(this.labelback1_Click);
             // 
             // frmStudents
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1508, 925);
+            this.ClientSize = new System.Drawing.Size(1004, 482);
             this.Controls.Add(this.labelback1);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmStudents";
             this.Text = "Student";
             this.Load += new System.EventHandler(this.Form2_Load);

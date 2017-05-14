@@ -25,3 +25,15 @@ F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\De
 F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
 F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
 F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmStudents.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLecturers.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
