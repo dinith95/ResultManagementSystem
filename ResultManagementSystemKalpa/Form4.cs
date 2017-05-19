@@ -16,69 +16,42 @@ namespace ResultManagementSystemKalpa
         public frmadmin()
         {
             InitializeComponent();
-            
-            labelstaff2.Visible = false;
-            labelstudents2.Visible = false;
-            labelcourses2.Visible = false;
-            panel1.Visible = false;
-            panel2.Visible = false;
-            panel3.Visible = false;
-            panel4.Visible = false;
+
+            PanelStsffAdd.Visible = false;
             pictureBox2.Visible = false;
-            panel6.Visible = false;
+            panelCourses.Visible = false;
+            panelDelete.Visible = false;
+            PanelStudent.Visible = false;
+
+
+
 
         }
 
-        private void labelstaff1_MouseEnter(object sender, EventArgs e)
-        {
-            labelstaff1.Visible = false;
-            labelstaff2.Visible = true;
-            panel1.Visible = true;
-            panel2.Visible = false;
-        }
 
         private void labelstaff1_MouseLeave(object sender, EventArgs e)
         {
-            
+
 
         }
 
         private void labelstaff2_MouseLeave(object sender, EventArgs e)
         {
-           // labelstaff2.Visible = false;
-          ///labelstaff1.Visible = true;
-          
-        }
-
-        private void labelstudents1_MouseEnter(object sender, EventArgs e)
-        {
-            labelstudents1.Visible = false;
-            labelstudents2.Visible = true;
-            panel1.Visible = false;
-        }
-
-        private void labelstudents2_MouseLeave(object sender, EventArgs e)
-        {
-            labelstudents1.Visible = true;
-           
-            labelstaff1.Visible = true;
-            labelstaff2.Visible = false;
-           
+            // labelstaff2.Visible = false;
+            ///labelstaff1.Visible = true;
 
         }
 
-        private void labelcourses1_MouseEnter(object sender, EventArgs e)
-        {
-            labelcourses1.Visible = false;
-            labelcourses2.Visible = true;
-            
-        }
+
+
+
+
 
         private void labelcourses2_MouseLeave(object sender, EventArgs e)
         {
-           // labelcourses2.Visible = false;
-           // labelcourses1.Visible = true;
-           
+            // labelcourses2.Visible = false;
+            // labelcourses1.Visible = true;
+
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -86,191 +59,54 @@ namespace ResultManagementSystemKalpa
 
         }
 
-        private void panel1_MouseEnter(object sender, EventArgs e)
-        {
-            labelstaff1.Visible = false;
-            panel1.Visible = true;
-            labelstaff2.Visible = true;
-           
-        }
 
         private void frmadmin_MouseEnter(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            labelstaff1.Visible = true;
-            labelstaff2.Visible = false;
-            labelcourses1.Visible = true;
-            labelcourses2.Visible = false;
-            panel2.Visible = false;
-            labelstudents1.Visible = true;
-            labelstudents2.Visible = false;
-            panel3.Visible = false;
 
         }
 
         private void frmadmin_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'database81DataSet1.courses' table. You can move, or remove it, as needed.
+            this.coursesTableAdapter1.Fill(this.database81DataSet1.courses);
+            // TODO: This line of code loads data into the 'database81DataSet.courses' table. You can move, or remove it, as needed.
+            this.coursesTableAdapter.Fill(this.database81DataSet.courses);
 
         }
 
         private void label1_MouseHover(object sender, EventArgs e)
         {
-           // label1.BackColor = Color.DarkRed;
+            // label1.BackColor = Color.DarkRed;
         }
-
-        private void label1_MouseEnter(object sender, EventArgs e)
-        {
-           label1.BackColor = Color.AntiqueWhite;
-        }
-
-        private void label1_MouseLeave(object sender, EventArgs e)
-        {
-            label1.BackColor = Color.Gainsboro;
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-            labeladdprofilepic.Text = "Add Profile Picture";
-            btndelete.Visible = false;
-            panel4.Visible = true;
-            btncler.Visible = true;
-            btnsubmit.Visible = true;
-            panel6.Visible = false;
-
-        }
-
-        private void label5_MouseEnter(object sender, EventArgs e)
-        {
-            labelupdatenewstaff.BackColor = Color.AntiqueWhite;
-        }
-
-        private void label4_MouseEnter(object sender, EventArgs e)
-        {
-            label4.BackColor = Color.AntiqueWhite;
-        }
-
-        private void label5_MouseLeave(object sender, EventArgs e)
-        {
-            labelupdatenewstaff.BackColor = Color.Gainsboro;
-        }
-
-        private void label4_MouseLeave(object sender, EventArgs e)
-        {
-            label4.BackColor = Color.Gainsboro;
-        }
-
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void labelstudents2_MouseEnter(object sender, EventArgs e)
-        {
-            panel2.Visible = true;
-        }
+
 
         private void label2_DragEnter(object sender, DragEventArgs e)
         {
 
         }
 
-        private void label2_MouseEnter(object sender, EventArgs e)
-        {
-            labelAddMember.BackColor = Color.AntiqueWhite;
-        }
 
-        private void label3_MouseEnter(object sender, EventArgs e)
-        {
-            labelUpdateInformation.BackColor = Color.AntiqueWhite;
-        }
 
-        private void label6_MouseEnter(object sender, EventArgs e)
-        {
-            labelDeleteRecords.BackColor = Color.AntiqueWhite;
-        }
+
+
 
         private void label2_DragLeave(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_MouseLeave(object sender, EventArgs e)
-        {
-            labelAddMember.BackColor = Color.Gainsboro;
-        }
 
-        private void label3_MouseLeave(object sender, EventArgs e)
-        {
-            labelUpdateInformation.BackColor = Color.Gainsboro;
-        }
 
-        private void label6_MouseLeave(object sender, EventArgs e)
-        {
-            labelDeleteRecords.BackColor = Color.Gainsboro;
-        }
+
 
         private void labelstaff2_MouseEnter(object sender, EventArgs e)
         {
-            
-        }
 
-        private void panel2_MouseEnter(object sender, EventArgs e)
-        {
-            labelstudents1.Visible = false;
-            panel2.Visible = true;
-            labelstudents2.Visible = true;
-           
-        }
-
-        private void label7_DragEnter(object sender, DragEventArgs e)
-        {
-            //label7.BackColor = Color.AntiqueWhite;
-        }
-
-        private void label8_MouseEnter(object sender, EventArgs e)
-        {
-            label8.BackColor = Color.AntiqueWhite;
-        }
-
-        private void label9_MouseEnter(object sender, EventArgs e)
-        {
-            label9.BackColor = Color.AntiqueWhite;
-        }
-
-        private void label7_MouseEnter(object sender, EventArgs e)
-        {
-            label7.BackColor = Color.AntiqueWhite;
-           
-        }
-
-        private void label7_MouseLeave(object sender, EventArgs e)
-        {
-            label7.BackColor = Color.Gainsboro;
-        }
-
-        private void label8_MouseLeave(object sender, EventArgs e)
-        {
-            label8.BackColor = Color.Gainsboro;
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-            //label9.BackColor = Color.Gainsboro;
-       }
-
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void labelcourses2_MouseEnter(object sender, EventArgs e)
-        {
-            panel3.Visible = true;
-        }
-
-        private void label9_MouseLeave(object sender, EventArgs e)
-        {
-            label9.BackColor = Color.Gainsboro;
         }
 
         private void textBox6_TextChanged(object sender, EventArgs e)
@@ -295,7 +131,7 @@ namespace ResultManagementSystemKalpa
 
         private void labeladdprofilepic_DragEnter(object sender, DragEventArgs e)
         {
-            labeladdprofilepic.ForeColor=Color.Blue;
+            labeladdprofilepic.ForeColor = Color.Blue;
         }
 
         private void labeladdprofilepic_Click(object sender, EventArgs e)
@@ -327,28 +163,11 @@ namespace ResultManagementSystemKalpa
 
         }
 
-        private void labelupdatenewstaff_Click(object sender, EventArgs e)
-        {
-            labeladdprofilepic.Text = "Add New Profile Picture";
-            panel4.Visible = true;
-            btndelete.Visible = false;
-            panel6.Visible = false;
-            btnsubmit.Text = "Update";
-            btncler.Visible = true;
-            btnsubmit.Visible = true;
-        }
-       
+
+
         private void panel4_MouseEnter(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            labelstaff1.Visible = true;
-            labelstaff2.Visible = false;
-            labelcourses1.Visible = true;
-            labelcourses2.Visible = false;
-            panel2.Visible = false;
-            labelstudents1.Visible = true;
-            labelstudents2.Visible = false;
-            panel3.Visible = false;
+
         }
 
         private void texsearch_TextChanged(object sender, EventArgs e)
@@ -356,15 +175,7 @@ namespace ResultManagementSystemKalpa
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-            labeladdprofilepic.Visible= false;
-            panel4.Visible = true;
-            btnsubmit.Visible = false;
-            panel6.Visible = false;
-            btndelete.Visible = true;
-            btncler.Visible = false;
-        }
+
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)
         {
@@ -385,10 +196,12 @@ namespace ResultManagementSystemKalpa
 
         private void label7_Click(object sender, EventArgs e)
         {
-            panel6.Visible = true;
+
+            panelCourses.Visible = true;
             btnupdate.Visible = false;
             buttondelete.Visible = false;
             btnadd.Visible = true;
+            PanelStudent.Visible = false;
         }
 
         private void label6_Click_1(object sender, EventArgs e)
@@ -413,16 +226,20 @@ namespace ResultManagementSystemKalpa
 
         private void label8_Click(object sender, EventArgs e)
         {
-            panel6.Visible = true;
+
+            panelCourses.Visible = true;
             buttondelete.Visible = false;
             btnadd.Visible = false;
-            btnupdate.Visible=true;
+            btnupdate.Visible = true;
+            PanelStudent.Visible = false;
 
         }
 
         private void label9_Click_1(object sender, EventArgs e)
         {
-            panel6.Visible = true;
+            panelCourses.Visible = false;
+
+            PanelStudent.Visible = false;
             buttondelete.Visible = true;
             btnadd.Visible = false;
             btnupdate.Visible = false;
@@ -430,15 +247,216 @@ namespace ResultManagementSystemKalpa
 
         private void panel6_MouseEnter(object sender, EventArgs e)
         {
-            panel1.Visible = false;
-            labelstaff1.Visible = true;
-            labelstaff2.Visible = false;
-            labelcourses1.Visible = true;
-            labelcourses2.Visible = false;
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void staffToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PanelStsffAdd.Visible = false;
+            panelCourses.Visible = false;
+            panelDelete.Visible = true;
+            dataGridView1.Visible = true;
+            dataGridView2.Visible = false;
+            PanelStudent.Visible = false;
+
+
+        }
+
+        private void panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void coursesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addNewCourseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            panelDelete.Visible = false;
+            PanelStsffAdd.Visible = false;
             panel2.Visible = false;
-            labelstudents1.Visible = true;
-            labelstudents2.Visible = false;
-            panel3.Visible = false;
+            panelCourses.Visible = true;
+            PanelStudent.Visible = false;
+            panel1.Visible = false;
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void addNewMemberToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = false;
+            panelCourses.Visible = false;
+            PanelStsffAdd.Visible = true;
+            btnsubmit.Visible = true; panel3.Visible = false;
+            PanelStudent.Visible = false;
+
+
+        }
+
+        private void updateCourseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            btnadd.Visible = false;
+            panel2.Visible = true;
+            PanelStsffAdd.Visible = false;
+            panelDelete.Visible = false;
+            panelCourses.Visible = true;
+
+        }
+
+        private void panel4_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void updateInformationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = false;
+            panelCourses.Visible = false;
+            panel3.Visible = true;
+            PanelStsffAdd.Visible = true;
+            panelDelete.Visible = false;
+
+            btnsubmit.Visible = false;
+            btncler.Visible = false;
+        }
+
+        private void pictureBox6_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox6.Visible = false;
+            pictureBox5.Visible = true;
+        }
+
+        private void pictureBox5_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox5.Visible = false;
+            pictureBox6.Visible = true;
+        }
+
+        private void pictureBox4_MouseEnter(object sender, EventArgs e)
+        {
+            pictureBox4.Visible = false;
+            pictureBox3.Visible = true;
+        }
+
+        private void pictureBox3_MouseLeave(object sender, EventArgs e)
+        {
+            pictureBox3.Visible = false;
+            pictureBox4.Visible = true;
+        }
+
+        private void deleteCourseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PanelStsffAdd.Visible = false;
+            panelCourses.Visible = false;
+            panelDelete.Visible = true;
+            dataGridView1.Visible = false;
+            dataGridView2.Visible = true;
+            PanelStudent.Visible = false;
+
+
+
+        }
+
+        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void maskedTextBox2_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
+        private void btnaddstudent_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnClearstudent_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            panel2.Visible = false;
+            panelCourses.Visible = false;
+            PanelStsffAdd.Visible = false;
+            btnsubmit.Visible = true; panel3.Visible = false;
+            PanelStudent.Visible = true;
+        }
+
+        private void PanelStudent_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox13_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox7_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox6_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

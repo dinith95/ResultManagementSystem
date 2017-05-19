@@ -37,3 +37,4 @@ C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKal
 C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
 C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
 C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\Database81.accdb
