@@ -38,3 +38,6 @@ C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKal
 C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
 C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
 C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\Database81.accdb
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
