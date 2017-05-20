@@ -33,56 +33,86 @@
             this.profileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resultsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.analysisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.feedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ProfilePanel = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.InquireBtn = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.InquireBtn = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.ResultsPanel = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.FeedbackPanel = new System.Windows.Forms.Panel();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.whiteStar5 = new System.Windows.Forms.PictureBox();
+            this.whiteStar4 = new System.Windows.Forms.PictureBox();
+            this.whiteStar3 = new System.Windows.Forms.PictureBox();
+            this.whiteStar2 = new System.Windows.Forms.PictureBox();
+            this.whiteStar1 = new System.Windows.Forms.PictureBox();
+            this.goldStar5 = new System.Windows.Forms.PictureBox();
+            this.goldStar4 = new System.Windows.Forms.PictureBox();
+            this.goldStar2 = new System.Windows.Forms.PictureBox();
+            this.goldStar1 = new System.Windows.Forms.PictureBox();
+            this.goldStar3 = new System.Windows.Forms.PictureBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.ProfilePanel.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.ResultsPanel.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.FeedbackPanel.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -121,17 +151,18 @@
             this.analysisToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.analysisToolStripMenuItem.Text = "Analysis";
             // 
-            // reportToolStripMenuItem
-            // 
-            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
-            this.reportToolStripMenuItem.Text = "Report";
-            // 
             // feedbackToolStripMenuItem
             // 
             this.feedbackToolStripMenuItem.Name = "feedbackToolStripMenuItem";
             this.feedbackToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.feedbackToolStripMenuItem.Text = "Feedback";
+            this.feedbackToolStripMenuItem.Click += new System.EventHandler(this.feedbackToolStripMenuItem_Click);
+            // 
+            // reportToolStripMenuItem
+            // 
+            this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.reportToolStripMenuItem.Text = "Report";
             // 
             // ProfilePanel
             // 
@@ -142,106 +173,6 @@
             this.ProfilePanel.Name = "ProfilePanel";
             this.ProfilePanel.Size = new System.Drawing.Size(1000, 454);
             this.ProfilePanel.TabIndex = 1;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label20);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.label17);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.dataGridView1);
-            this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.pictureBox9);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(13, 17);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(572, 412);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Details";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 46);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Student No. :";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "First Name :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 106);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Last Name :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 136);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Year :";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 264);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Extra Curricular Activities :";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 169);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 13);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Current GPA value :";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(386, 26);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(147, 156);
-            this.pictureBox9.TabIndex = 50;
-            this.pictureBox9.TabStop = false;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(386, 192);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 23);
-            this.button1.TabIndex = 51;
-            this.button1.Text = "Update Profile Photo";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -264,49 +195,41 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Update Info";
             // 
-            // label7
+            // maskedTextBox1
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(20, 202);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 13);
-            this.label7.TabIndex = 52;
-            this.label7.Text = "Contact No. :";
+            this.maskedTextBox1.Location = new System.Drawing.Point(116, 114);
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(196, 20);
+            this.maskedTextBox1.TabIndex = 63;
             // 
-            // label8
+            // textBox3
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(20, 234);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 13);
-            this.label8.TabIndex = 53;
-            this.label8.Text = "e-mail Address :";
+            this.textBox3.Location = new System.Drawing.Point(116, 146);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(196, 20);
+            this.textBox3.TabIndex = 62;
             // 
-            // dataGridView1
+            // textBox2
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(155, 264);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(410, 137);
-            this.dataGridView1.TabIndex = 54;
+            this.textBox2.Location = new System.Drawing.Point(116, 83);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(196, 20);
+            this.textBox2.TabIndex = 61;
             // 
-            // InquireBtn
+            // textBox1
             // 
-            this.InquireBtn.Location = new System.Drawing.Point(219, 373);
-            this.InquireBtn.Name = "InquireBtn";
-            this.InquireBtn.Size = new System.Drawing.Size(75, 23);
-            this.InquireBtn.TabIndex = 0;
-            this.InquireBtn.Text = "Inquire";
-            this.InquireBtn.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(116, 52);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(196, 20);
+            this.textBox1.TabIndex = 60;
             // 
-            // button2
+            // dataGridView2
             // 
-            this.button2.Location = new System.Drawing.Point(304, 373);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cancel";
-            this.button2.UseVisualStyleBackColor = true;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(32, 211);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(347, 137);
+            this.dataGridView2.TabIndex = 59;
             // 
             // label9
             // 
@@ -353,58 +276,60 @@
             this.label13.TabIndex = 54;
             this.label13.Text = "First Name :";
             // 
-            // dataGridView2
+            // button2
             // 
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(32, 211);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(347, 137);
-            this.dataGridView2.TabIndex = 59;
+            this.button2.Location = new System.Drawing.Point(304, 373);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Cancel";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // label14
+            // InquireBtn
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(127, 46);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(61, 13);
-            this.label14.TabIndex = 55;
-            this.label14.Text = "IM/20**/***";
+            this.InquireBtn.Location = new System.Drawing.Point(219, 373);
+            this.InquireBtn.Name = "InquireBtn";
+            this.InquireBtn.Size = new System.Drawing.Size(75, 23);
+            this.InquireBtn.TabIndex = 0;
+            this.InquireBtn.Text = "Inquire";
+            this.InquireBtn.UseVisualStyleBackColor = true;
             // 
-            // label15
+            // groupBox1
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(127, 75);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(49, 13);
-            this.label15.TabIndex = 56;
-            this.label15.Text = "XXXXXX";
+            this.groupBox1.Controls.Add(this.label20);
+            this.groupBox1.Controls.Add(this.label19);
+            this.groupBox1.Controls.Add(this.label18);
+            this.groupBox1.Controls.Add(this.label17);
+            this.groupBox1.Controls.Add(this.label16);
+            this.groupBox1.Controls.Add(this.label15);
+            this.groupBox1.Controls.Add(this.label14);
+            this.groupBox1.Controls.Add(this.dataGridView1);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.pictureBox9);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(13, 17);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(572, 412);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Details";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // label16
+            // label20
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(127, 106);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(49, 13);
-            this.label16.TabIndex = 57;
-            this.label16.Text = "XXXXXX";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(127, 136);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 13);
-            this.label17.TabIndex = 58;
-            this.label17.Text = "X";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(127, 169);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(31, 13);
-            this.label18.TabIndex = 59;
-            this.label18.Text = "X.XX";
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(127, 234);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(99, 13);
+            this.label20.TabIndex = 61;
+            this.label20.Text = "XXXXXX@****.com";
             // 
             // label19
             // 
@@ -415,14 +340,148 @@
             this.label19.TabIndex = 60;
             this.label19.Text = "07********";
             // 
-            // label20
+            // label18
             // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(127, 234);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(99, 13);
-            this.label20.TabIndex = 61;
-            this.label20.Text = "XXXXXX@****.com";
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(127, 169);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(31, 13);
+            this.label18.TabIndex = 59;
+            this.label18.Text = "X.XX";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(127, 136);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(14, 13);
+            this.label17.TabIndex = 58;
+            this.label17.Text = "X";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(127, 106);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(49, 13);
+            this.label16.TabIndex = 57;
+            this.label16.Text = "XXXXXX";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(127, 75);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(49, 13);
+            this.label15.TabIndex = 56;
+            this.label15.Text = "XXXXXX";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(127, 46);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(61, 13);
+            this.label14.TabIndex = 55;
+            this.label14.Text = "IM/20**/***";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(155, 264);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(410, 137);
+            this.dataGridView1.TabIndex = 54;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(20, 234);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(81, 13);
+            this.label8.TabIndex = 53;
+            this.label8.Text = "e-mail Address :";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(20, 202);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(70, 13);
+            this.label7.TabIndex = 52;
+            this.label7.Text = "Contact No. :";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(386, 192);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(147, 23);
+            this.button1.TabIndex = 51;
+            this.button1.Text = "Update Profile Photo";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(386, 26);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(147, 156);
+            this.pictureBox9.TabIndex = 50;
+            this.pictureBox9.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 169);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(101, 13);
+            this.label6.TabIndex = 5;
+            this.label6.Text = "Current GPA value :";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 264);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(129, 13);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "Extra Curricular Activities :";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(20, 136);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Year :";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 106);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Last Name :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(20, 75);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "First Name :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(20, 46);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Student No. :";
             // 
             // ResultsPanel
             // 
@@ -483,33 +542,177 @@
             this.tabPage4.Text = "Year 4";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // FeedbackPanel
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 52);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 20);
-            this.textBox1.TabIndex = 60;
+            this.FeedbackPanel.BackColor = System.Drawing.Color.Transparent;
+            this.FeedbackPanel.Controls.Add(this.groupBox3);
+            this.FeedbackPanel.Controls.Add(this.dataGridView3);
+            this.FeedbackPanel.Controls.Add(this.comboBox1);
+            this.FeedbackPanel.Controls.Add(this.textBox4);
+            this.FeedbackPanel.Controls.Add(this.label21);
+            this.FeedbackPanel.Location = new System.Drawing.Point(0, 146);
+            this.FeedbackPanel.Name = "FeedbackPanel";
+            this.FeedbackPanel.Size = new System.Drawing.Size(1000, 454);
+            this.FeedbackPanel.TabIndex = 3;
             // 
-            // textBox2
+            // groupBox3
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 83);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 20);
-            this.textBox2.TabIndex = 61;
+            this.groupBox3.Controls.Add(this.whiteStar5);
+            this.groupBox3.Controls.Add(this.whiteStar4);
+            this.groupBox3.Controls.Add(this.whiteStar3);
+            this.groupBox3.Controls.Add(this.whiteStar2);
+            this.groupBox3.Controls.Add(this.whiteStar1);
+            this.groupBox3.Controls.Add(this.goldStar5);
+            this.groupBox3.Controls.Add(this.goldStar4);
+            this.groupBox3.Controls.Add(this.goldStar2);
+            this.groupBox3.Controls.Add(this.goldStar1);
+            this.groupBox3.Controls.Add(this.goldStar3);
+            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Location = new System.Drawing.Point(624, 49);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(347, 374);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Feedback Form";
             // 
-            // textBox3
+            // whiteStar5
             // 
-            this.textBox3.Location = new System.Drawing.Point(116, 146);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(196, 20);
-            this.textBox3.TabIndex = 62;
+            this.whiteStar5.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar5.Image")));
+            this.whiteStar5.Location = new System.Drawing.Point(186, 241);
+            this.whiteStar5.Name = "whiteStar5";
+            this.whiteStar5.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar5.TabIndex = 10;
+            this.whiteStar5.TabStop = false;
+            this.whiteStar5.Click += new System.EventHandler(this.whiteStar5_Click);
             // 
-            // maskedTextBox1
+            // whiteStar4
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(116, 114);
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(141, 20);
-            this.maskedTextBox1.TabIndex = 63;
+            this.whiteStar4.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar4.Image")));
+            this.whiteStar4.Location = new System.Drawing.Point(216, 241);
+            this.whiteStar4.Name = "whiteStar4";
+            this.whiteStar4.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar4.TabIndex = 9;
+            this.whiteStar4.TabStop = false;
+            this.whiteStar4.Click += new System.EventHandler(this.whiteStar4_Click);
+            // 
+            // whiteStar3
+            // 
+            this.whiteStar3.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar3.Image")));
+            this.whiteStar3.Location = new System.Drawing.Point(246, 241);
+            this.whiteStar3.Name = "whiteStar3";
+            this.whiteStar3.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar3.TabIndex = 8;
+            this.whiteStar3.TabStop = false;
+            this.whiteStar3.Click += new System.EventHandler(this.whiteStar3_Click);
+            // 
+            // whiteStar2
+            // 
+            this.whiteStar2.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar2.Image")));
+            this.whiteStar2.Location = new System.Drawing.Point(276, 241);
+            this.whiteStar2.Name = "whiteStar2";
+            this.whiteStar2.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar2.TabIndex = 7;
+            this.whiteStar2.TabStop = false;
+            this.whiteStar2.Click += new System.EventHandler(this.whiteStar2_Click);
+            // 
+            // whiteStar1
+            // 
+            this.whiteStar1.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar1.Image")));
+            this.whiteStar1.Location = new System.Drawing.Point(306, 241);
+            this.whiteStar1.Name = "whiteStar1";
+            this.whiteStar1.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar1.TabIndex = 6;
+            this.whiteStar1.TabStop = false;
+            this.whiteStar1.Click += new System.EventHandler(this.whiteStar1_Click);
+            // 
+            // goldStar5
+            // 
+            this.goldStar5.Image = ((System.Drawing.Image)(resources.GetObject("goldStar5.Image")));
+            this.goldStar5.Location = new System.Drawing.Point(186, 241);
+            this.goldStar5.Name = "goldStar5";
+            this.goldStar5.Size = new System.Drawing.Size(24, 24);
+            this.goldStar5.TabIndex = 15;
+            this.goldStar5.TabStop = false;
+            this.goldStar5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar5_MouseClick);
+            // 
+            // goldStar4
+            // 
+            this.goldStar4.Image = ((System.Drawing.Image)(resources.GetObject("goldStar4.Image")));
+            this.goldStar4.Location = new System.Drawing.Point(216, 241);
+            this.goldStar4.Name = "goldStar4";
+            this.goldStar4.Size = new System.Drawing.Size(24, 24);
+            this.goldStar4.TabIndex = 14;
+            this.goldStar4.TabStop = false;
+            this.goldStar4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar4_MouseClick);
+            // 
+            // goldStar2
+            // 
+            this.goldStar2.Image = ((System.Drawing.Image)(resources.GetObject("goldStar2.Image")));
+            this.goldStar2.Location = new System.Drawing.Point(275, 241);
+            this.goldStar2.Name = "goldStar2";
+            this.goldStar2.Size = new System.Drawing.Size(24, 24);
+            this.goldStar2.TabIndex = 13;
+            this.goldStar2.TabStop = false;
+            this.goldStar2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar2_MouseClick);
+            // 
+            // goldStar1
+            // 
+            this.goldStar1.Image = ((System.Drawing.Image)(resources.GetObject("goldStar1.Image")));
+            this.goldStar1.Location = new System.Drawing.Point(305, 241);
+            this.goldStar1.Name = "goldStar1";
+            this.goldStar1.Size = new System.Drawing.Size(24, 24);
+            this.goldStar1.TabIndex = 12;
+            this.goldStar1.TabStop = false;
+            // 
+            // goldStar3
+            // 
+            this.goldStar3.Image = ((System.Drawing.Image)(resources.GetObject("goldStar3.Image")));
+            this.goldStar3.Location = new System.Drawing.Point(246, 241);
+            this.goldStar3.Name = "goldStar3";
+            this.goldStar3.Size = new System.Drawing.Size(24, 24);
+            this.goldStar3.TabIndex = 11;
+            this.goldStar3.TabStop = false;
+            this.goldStar3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar3_MouseClick);
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(18, 54);
+            this.textBox5.Multiline = true;
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(312, 179);
+            this.textBox5.TabIndex = 5;
+            // 
+            // dataGridView3
+            // 
+            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView3.Location = new System.Drawing.Point(36, 103);
+            this.dataGridView3.Name = "dataGridView3";
+            this.dataGridView3.Size = new System.Drawing.Size(550, 320);
+            this.dataGridView3.TabIndex = 4;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(100, 49);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 3;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(233, 50);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(118, 20);
+            this.textBox4.TabIndex = 2;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(27, 53);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(62, 13);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Search By :";
             // 
             // Form1
             // 
@@ -517,6 +720,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1001, 600);
+            this.Controls.Add(this.FeedbackPanel);
             this.Controls.Add(this.ProfilePanel);
             this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.menuStrip1);
@@ -529,15 +733,30 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ProfilePanel.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResultsPanel.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
+            this.FeedbackPanel.ResumeLayout(false);
+            this.FeedbackPanel.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -590,6 +809,23 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel FeedbackPanel;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.PictureBox whiteStar5;
+        private System.Windows.Forms.PictureBox whiteStar4;
+        private System.Windows.Forms.PictureBox whiteStar3;
+        private System.Windows.Forms.PictureBox whiteStar2;
+        private System.Windows.Forms.PictureBox whiteStar1;
+        private System.Windows.Forms.PictureBox goldStar5;
+        private System.Windows.Forms.PictureBox goldStar4;
+        private System.Windows.Forms.PictureBox goldStar2;
+        private System.Windows.Forms.PictureBox goldStar1;
+        private System.Windows.Forms.PictureBox goldStar3;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.DataGridView dataGridView3;
     }
 }
 

@@ -36,5 +36,116 @@ namespace Student
         {
             ResultsPanel.BringToFront();
         }
+
+        private void feedbackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FeedbackPanel.BringToFront();
+        }
+
+        private void whiteStar5_Click(object sender, EventArgs e)
+        {
+            goldStar5.Visible = true;
+            whiteStar5.Visible = false;
+        }
+
+        private void whiteStar4_Click(object sender, EventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            whiteStar5.Visible = false;
+            whiteStar4.Visible = false;
+        }
+
+        private void whiteStar3_Click(object sender, EventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            goldStar3.Visible = true;
+            whiteStar3.Visible = false;
+            whiteStar4.Visible = false;
+            whiteStar5.Visible = false;
+        }
+
+        private void whiteStar2_Click(object sender, EventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            goldStar3.Visible = true;
+            goldStar2.Visible = true;
+            whiteStar2.Visible = false;
+            whiteStar3.Visible = false;
+            whiteStar4.Visible = false;
+            whiteStar5.Visible = false;
+        }
+
+        private void whiteStar1_Click(object sender, EventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            goldStar3.Visible = true;
+            goldStar2.Visible = true;
+            goldStar1.Visible = true;
+            whiteStar1.Visible = false;
+            whiteStar2.Visible = false;
+            whiteStar3.Visible = false;
+            whiteStar4.Visible = false;
+            whiteStar5.Visible = false;
+        }
+
+        private void goldStar2_MouseClick(object sender, MouseEventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            goldStar3.Visible = true;
+            goldStar2.Visible = true;
+            goldStar1.Visible = false;
+            whiteStar1.Visible = true;
+            whiteStar2.Visible = false;
+            whiteStar3.Visible = false;
+            whiteStar4.Visible = false;
+            whiteStar5.Visible = false;
+        }
+
+        private void goldStar3_MouseClick(object sender, MouseEventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            goldStar3.Visible = true;
+            goldStar2.Visible = false;
+            goldStar1.Visible = false;
+            whiteStar1.Visible = true;
+            whiteStar2.Visible = true;
+            whiteStar3.Visible = false;
+            whiteStar4.Visible = false;
+            whiteStar5.Visible = false;
+        }
+
+        private void goldStar4_MouseClick(object sender, MouseEventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = true;
+            goldStar3.Visible = false;
+            goldStar2.Visible = false;
+            goldStar1.Visible = false;
+            whiteStar1.Visible = true;
+            whiteStar2.Visible = true;
+            whiteStar3.Visible = true;
+            whiteStar4.Visible = false;
+            whiteStar5.Visible = false;
+        }
+
+        private void goldStar5_MouseClick(object sender, MouseEventArgs e)
+        {
+            goldStar5.Visible = true;
+            goldStar4.Visible = false;
+            goldStar3.Visible = false;
+            goldStar2.Visible = false;
+            goldStar1.Visible = false;
+            whiteStar1.Visible = true;
+            whiteStar2.Visible = true;
+            whiteStar3.Visible = true;
+            whiteStar4.Visible = true;
+            whiteStar5.Visible = false;
+        }
     }
 }
