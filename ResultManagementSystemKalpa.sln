@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResultManagementSystemKalpa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student", "Student\Student.csproj", "{50CEEA10-AE91-4B6A-A45C-7D2CA25E9BC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecturer", "Lecturer\Lecturer.csproj", "{A3F85F48-EAD5-4CBB-94C3-E8D136B58714}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{50CEEA10-AE91-4B6A-A45C-7D2CA25E9BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CEEA10-AE91-4B6A-A45C-7D2CA25E9BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50CEEA10-AE91-4B6A-A45C-7D2CA25E9BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F85F48-EAD5-4CBB-94C3-E8D136B58714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F85F48-EAD5-4CBB-94C3-E8D136B58714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F85F48-EAD5-4CBB-94C3-E8D136B58714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F85F48-EAD5-4CBB-94C3-E8D136B58714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
