@@ -93,9 +93,18 @@
             this.goldStar4 = new System.Windows.Forms.PictureBox();
             this.goldStar5 = new System.Windows.Forms.PictureBox();
             this.goldStar3 = new System.Windows.Forms.PictureBox();
+            this.goldFAke1 = new System.Windows.Forms.PictureBox();
+            this.goldFake2 = new System.Windows.Forms.PictureBox();
+            this.goldFake3 = new System.Windows.Forms.PictureBox();
+            this.goldFake4 = new System.Windows.Forms.PictureBox();
+            this.goldFake5 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label22 = new System.Windows.Forms.Label();
+            this.panelYear1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelYear2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelYear3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ReportYear1Panel = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.ProfilePanel.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -118,6 +127,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFAke1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
@@ -168,6 +182,10 @@
             // 
             // reportToolStripMenuItem
             // 
+            this.reportToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.panelYear1ToolStripMenuItem,
+            this.panelYear2ToolStripMenuItem,
+            this.panelYear3ToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.reportToolStripMenuItem.Text = "Report";
@@ -607,6 +625,11 @@
             this.groupBox3.Controls.Add(this.goldStar4);
             this.groupBox3.Controls.Add(this.goldStar5);
             this.groupBox3.Controls.Add(this.goldStar3);
+            this.groupBox3.Controls.Add(this.goldFAke1);
+            this.groupBox3.Controls.Add(this.goldFake2);
+            this.groupBox3.Controls.Add(this.goldFake3);
+            this.groupBox3.Controls.Add(this.goldFake4);
+            this.groupBox3.Controls.Add(this.goldFake5);
             this.groupBox3.Controls.Add(this.textBox5);
             this.groupBox3.Location = new System.Drawing.Point(624, 49);
             this.groupBox3.Name = "groupBox3";
@@ -663,8 +686,8 @@
             this.whiteStar2.Size = new System.Drawing.Size(24, 24);
             this.whiteStar2.TabIndex = 9;
             this.whiteStar2.TabStop = false;
-            this.whiteStar2.Click += new System.EventHandler(this.whiteStar4_Click);
-            this.whiteStar2.MouseEnter += new System.EventHandler(this.whiteStar4_MouseEnter);
+            this.whiteStar2.Click += new System.EventHandler(this.whiteStar2_Click);
+            this.whiteStar2.MouseEnter += new System.EventHandler(this.whiteStar2_MouseEnter);
             // 
             // whiteStar3
             // 
@@ -675,6 +698,7 @@
             this.whiteStar3.TabIndex = 8;
             this.whiteStar3.TabStop = false;
             this.whiteStar3.Click += new System.EventHandler(this.whiteStar3_Click);
+            this.whiteStar3.MouseEnter += new System.EventHandler(this.whiteStar3_MouseEnter);
             // 
             // whiteStar4
             // 
@@ -684,7 +708,8 @@
             this.whiteStar4.Size = new System.Drawing.Size(24, 24);
             this.whiteStar4.TabIndex = 7;
             this.whiteStar4.TabStop = false;
-            this.whiteStar4.Click += new System.EventHandler(this.whiteStar2_Click);
+            this.whiteStar4.Click += new System.EventHandler(this.whiteStar4_Click);
+            this.whiteStar4.MouseEnter += new System.EventHandler(this.whiteStar4_MouseEnter);
             // 
             // whiteStar5
             // 
@@ -694,7 +719,8 @@
             this.whiteStar5.Size = new System.Drawing.Size(24, 24);
             this.whiteStar5.TabIndex = 6;
             this.whiteStar5.TabStop = false;
-            this.whiteStar5.Click += new System.EventHandler(this.whiteStar1_Click);
+            this.whiteStar5.Click += new System.EventHandler(this.whiteStar5_Click);
+            this.whiteStar5.MouseEnter += new System.EventHandler(this.whiteStar5_MouseEnter_1);
             // 
             // goldStar1
             // 
@@ -747,6 +773,61 @@
             this.goldStar3.TabStop = false;
             this.goldStar3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar3_MouseClick);
             // 
+            // goldFAke1
+            // 
+            this.goldFAke1.Image = ((System.Drawing.Image)(resources.GetObject("goldFAke1.Image")));
+            this.goldFAke1.Location = new System.Drawing.Point(152, 241);
+            this.goldFAke1.Name = "goldFAke1";
+            this.goldFAke1.Size = new System.Drawing.Size(24, 24);
+            this.goldFAke1.TabIndex = 28;
+            this.goldFAke1.TabStop = false;
+            this.goldFAke1.Click += new System.EventHandler(this.goldFAke1_Click);
+            this.goldFAke1.MouseLeave += new System.EventHandler(this.goldFAke1_MouseLeave);
+            // 
+            // goldFake2
+            // 
+            this.goldFake2.Image = ((System.Drawing.Image)(resources.GetObject("goldFake2.Image")));
+            this.goldFake2.Location = new System.Drawing.Point(182, 241);
+            this.goldFake2.Name = "goldFake2";
+            this.goldFake2.Size = new System.Drawing.Size(24, 24);
+            this.goldFake2.TabIndex = 27;
+            this.goldFake2.TabStop = false;
+            this.goldFake2.Click += new System.EventHandler(this.goldFake2_Click);
+            this.goldFake2.MouseLeave += new System.EventHandler(this.goldFake2_MouseLeave);
+            // 
+            // goldFake3
+            // 
+            this.goldFake3.Image = ((System.Drawing.Image)(resources.GetObject("goldFake3.Image")));
+            this.goldFake3.Location = new System.Drawing.Point(212, 241);
+            this.goldFake3.Name = "goldFake3";
+            this.goldFake3.Size = new System.Drawing.Size(24, 24);
+            this.goldFake3.TabIndex = 24;
+            this.goldFake3.TabStop = false;
+            this.goldFake3.Click += new System.EventHandler(this.goldFake3_Click);
+            this.goldFake3.MouseLeave += new System.EventHandler(this.goldFake3_MouseLeave);
+            // 
+            // goldFake4
+            // 
+            this.goldFake4.Image = ((System.Drawing.Image)(resources.GetObject("goldFake4.Image")));
+            this.goldFake4.Location = new System.Drawing.Point(242, 241);
+            this.goldFake4.Name = "goldFake4";
+            this.goldFake4.Size = new System.Drawing.Size(24, 24);
+            this.goldFake4.TabIndex = 26;
+            this.goldFake4.TabStop = false;
+            this.goldFake4.Click += new System.EventHandler(this.goldFake4_Click);
+            this.goldFake4.MouseLeave += new System.EventHandler(this.goldFake4_MouseLeave);
+            // 
+            // goldFake5
+            // 
+            this.goldFake5.Image = ((System.Drawing.Image)(resources.GetObject("goldFake5.Image")));
+            this.goldFake5.Location = new System.Drawing.Point(271, 241);
+            this.goldFake5.Name = "goldFake5";
+            this.goldFake5.Size = new System.Drawing.Size(24, 24);
+            this.goldFake5.TabIndex = 25;
+            this.goldFake5.TabStop = false;
+            this.goldFake5.Click += new System.EventHandler(this.goldFake5_Click);
+            this.goldFake5.MouseLeave += new System.EventHandler(this.goldFake5_MouseLeave);
+            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(18, 54);
@@ -778,6 +859,33 @@
             this.label22.MouseEnter += new System.EventHandler(this.label22_MouseEnter);
             this.label22.MouseLeave += new System.EventHandler(this.label22_MouseLeave);
             // 
+            // panelYear1ToolStripMenuItem
+            // 
+            this.panelYear1ToolStripMenuItem.Name = "panelYear1ToolStripMenuItem";
+            this.panelYear1ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear1ToolStripMenuItem.Text = "panel year 1(temp)";
+            this.panelYear1ToolStripMenuItem.Click += new System.EventHandler(this.panelYear1ToolStripMenuItem_Click);
+            // 
+            // panelYear2ToolStripMenuItem
+            // 
+            this.panelYear2ToolStripMenuItem.Name = "panelYear2ToolStripMenuItem";
+            this.panelYear2ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear2ToolStripMenuItem.Text = "Panel year 2(temp)";
+            // 
+            // panelYear3ToolStripMenuItem
+            // 
+            this.panelYear3ToolStripMenuItem.Name = "panelYear3ToolStripMenuItem";
+            this.panelYear3ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear3ToolStripMenuItem.Text = "panel year 3/4(temp)";
+            // 
+            // ReportYear1Panel
+            // 
+            this.ReportYear1Panel.BackColor = System.Drawing.Color.Transparent;
+            this.ReportYear1Panel.Location = new System.Drawing.Point(0, 146);
+            this.ReportYear1Panel.Name = "ReportYear1Panel";
+            this.ReportYear1Panel.Size = new System.Drawing.Size(1000, 454);
+            this.ReportYear1Panel.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -785,6 +893,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1001, 600);
             this.Controls.Add(this.label22);
+            this.Controls.Add(this.ReportYear1Panel);
             this.Controls.Add(this.FeedbackPanel);
             this.Controls.Add(this.ProfilePanel);
             this.Controls.Add(this.ResultsPanel);
@@ -824,6 +933,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFAke1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldFake5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -899,6 +1013,15 @@
         private System.Windows.Forms.ToolStripMenuItem coursesToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem lecturersToolStripMenuItem;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.PictureBox goldFAke1;
+        private System.Windows.Forms.PictureBox goldFake2;
+        private System.Windows.Forms.PictureBox goldFake3;
+        private System.Windows.Forms.PictureBox goldFake4;
+        private System.Windows.Forms.PictureBox goldFake5;
+        private System.Windows.Forms.ToolStripMenuItem panelYear1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem panelYear2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem panelYear3ToolStripMenuItem;
+        private System.Windows.Forms.Panel ReportYear1Panel;
     }
 }
 

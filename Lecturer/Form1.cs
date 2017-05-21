@@ -20,13 +20,13 @@ namespace Lecturer
         private void Form1_Load(object sender, EventArgs e)
         {
             ProfilePanel.BringToFront();
-            this.Text = "Dr. Chathura Rajapaksa";
+            this.Text = "Dr. Chathura Rajapaksha";
         }
 
         private void profileToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ProfilePanel.BringToFront();
-            RatingsPanel.BringToFront();
+            
         }
 
         private void resultsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -37,6 +37,7 @@ namespace Lecturer
         private void feedbackToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FeedbackPanel.BringToFront();
+            RatingsPanel.BringToFront();
         }
 
         private void button3_Click(object sender, EventArgs e)

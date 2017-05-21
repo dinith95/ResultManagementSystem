@@ -12,11 +12,7 @@ namespace Student
 {
     public partial class Form1 : Form
     {
-        bool x1 = false;
-        bool x2 = false;
-        bool x3 = false;
-        bool x4 = false;
-        bool x5 = false;
+        
 
         public Form1()
         {
@@ -51,137 +47,82 @@ namespace Student
 
         private void whiteStar5_Click(object sender, EventArgs e)
         {
-            goldStar1.Visible = true;
-            whiteStar1.Visible = false;
-            x1 = true;
+            goldStar1.BringToFront();
         }
 
         private void whiteStar4_Click(object sender, EventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            whiteStar1.Visible = false;
-            whiteStar2.Visible = false;
-            x1 = true;
-            x2 = true;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
         }
 
         private void whiteStar3_Click(object sender, EventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            goldStar3.Visible = true;
-            whiteStar3.Visible = false;
-            whiteStar2.Visible = false;
-            whiteStar1.Visible = false;
-            x1 = true;
-            x2 = true;
-            x3 = true;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
         }
 
         private void whiteStar2_Click(object sender, EventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            goldStar3.Visible = true;
-            goldStar4.Visible = true;
-            whiteStar4.Visible = false;
-            whiteStar3.Visible = false;
-            whiteStar2.Visible = false;
-            whiteStar1.Visible = false;
-            x1 = true;
-            x2 = true;
-            x3 = true;
-            x4 = true;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+            goldStar4.BringToFront();
         }
 
         private void whiteStar1_Click(object sender, EventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            goldStar3.Visible = true;
-            goldStar4.Visible = true;
-            goldStar5.Visible = true;
-            whiteStar5.Visible = false;
-            whiteStar4.Visible = false;
-            whiteStar3.Visible = false;
-            whiteStar2.Visible = false;
-            whiteStar1.Visible = false;
-            x1 = true;
-            x2 = true;
-            x3 = true;
-            x4 = true;
-            x5 = true;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+            goldStar4.BringToFront();
+            goldStar5.BringToFront();
         }
 
         private void goldStar2_MouseClick(object sender, MouseEventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            goldStar3.Visible = true;
-            goldStar4.Visible = true;
-            goldStar5.Visible = false;
-            whiteStar5.Visible = true;
-            whiteStar4.Visible = false;
-            whiteStar3.Visible = false;
-            whiteStar2.Visible = false;
-            whiteStar1.Visible = false;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+            goldStar4.BringToFront();
+            whiteStar5.BringToFront();
         }
 
         private void goldStar3_MouseClick(object sender, MouseEventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            goldStar3.Visible = true;
-            goldStar4.Visible = false;
-            goldStar5.Visible = false;
-            whiteStar5.Visible = true;
-            whiteStar4.Visible = true;
-            whiteStar3.Visible = false;
-            whiteStar2.Visible = false;
-            whiteStar1.Visible = false;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+            whiteStar4.BringToFront();
+            whiteStar5.BringToFront();
         }
 
         private void goldStar4_MouseClick(object sender, MouseEventArgs e)
         {
-            goldStar1.Visible = true;
-            goldStar2.Visible = true;
-            goldStar3.Visible = false;
-            goldStar4.Visible = false;
-            goldStar5.Visible = false;
-            whiteStar5.Visible = true;
-            whiteStar4.Visible = true;
-            whiteStar3.Visible = true;
-            whiteStar2.Visible = false;
-            whiteStar1.Visible = false;
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            whiteStar3.BringToFront();
+            whiteStar4.BringToFront();
+            whiteStar5.BringToFront();
         }
 
         private void goldStar5_MouseClick(object sender, MouseEventArgs e)
-        {            
-            goldStar1.Visible = true;
-            goldStar2.Visible = false;
-            goldStar3.Visible = false;
-            goldStar4.Visible = false;
-            goldStar5.Visible = false;
-            whiteStar5.Visible = true;
-            whiteStar4.Visible = true;
-            whiteStar3.Visible = true;
-            whiteStar2.Visible = true;
-            whiteStar1.Visible = false;
+        {
+            goldStar1.BringToFront();
+            whiteStar2.BringToFront();
+            whiteStar3.BringToFront();
+            whiteStar4.BringToFront();
+            whiteStar5.BringToFront();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            goldStar1.Visible = false;
-            goldStar2.Visible = false;
-            goldStar3.Visible = false;
-            goldStar4.Visible = false;
-            goldStar5.Visible = false;
-            whiteStar5.Visible = true;
-            whiteStar4.Visible = true;
-            whiteStar3.Visible = true;
-            whiteStar2.Visible = true;
-            whiteStar1.Visible = true;
+            whiteStar1.BringToFront();
+            whiteStar2.BringToFront();
+            whiteStar3.BringToFront();
+            whiteStar4.BringToFront();
+            whiteStar5.BringToFront();
         }
 
         private void analysisToolStripMenuItem_Click(object sender, EventArgs e)
@@ -191,20 +132,15 @@ namespace Student
 
         private void whiteStar5_MouseEnter(object sender, EventArgs e)
         {
-           
+            goldFAke1.BringToFront();          
         }
 
         private void goldStar5_MouseLeave(object sender, EventArgs e)
         {
-                        
+                                    
         }
 
         private void whiteStar5_MouseMove(object sender, MouseEventArgs e)
-        {
-            
-        }
-
-        private void whiteStar4_MouseEnter(object sender, EventArgs e)
         {
             
         }
@@ -223,6 +159,111 @@ namespace Student
         private void label22_MouseLeave(object sender, EventArgs e)
         {
             label22.ForeColor = Color.Black;
+        }
+
+        private void goldFAke1_MouseLeave(object sender, EventArgs e)
+        {
+            goldFAke1.SendToBack();
+        }
+
+        private void whiteStar2_MouseEnter(object sender, EventArgs e)
+        {
+            goldFAke1.BringToFront();
+            goldFake2.BringToFront();
+        }
+
+        private void goldFake2_MouseLeave(object sender, EventArgs e)
+        {
+            goldFake2.SendToBack();
+            goldFAke1.SendToBack();
+        }
+
+        private void whiteStar3_MouseEnter(object sender, EventArgs e)
+        {
+            goldFAke1.BringToFront();
+            goldFake2.BringToFront();
+            goldFake3.BringToFront();
+        }
+
+        private void goldFake3_MouseLeave(object sender, EventArgs e)
+        {
+            goldFake2.SendToBack();
+            goldFAke1.SendToBack();
+            goldFake3.SendToBack();
+        }
+
+        private void whiteStar4_MouseEnter(object sender, EventArgs e)
+        {
+            goldFAke1.BringToFront();
+            goldFake2.BringToFront();
+            goldFake3.BringToFront();
+            goldFake4.BringToFront();
+        }
+
+        private void goldFake4_MouseLeave(object sender, EventArgs e)
+        {
+            goldFake2.SendToBack();
+            goldFAke1.SendToBack();
+            goldFake3.SendToBack();
+            goldFake4.SendToBack();
+        }
+
+        private void whiteStar5_MouseEnter_1(object sender, EventArgs e)
+        {
+            goldFAke1.BringToFront();
+            goldFake2.BringToFront();
+            goldFake3.BringToFront();
+            goldFake4.BringToFront();
+            goldFake5.BringToFront();
+        }
+
+        private void goldFake5_MouseLeave(object sender, EventArgs e)
+        {
+            goldFake2.SendToBack();
+            goldFAke1.SendToBack();
+            goldFake3.SendToBack();
+            goldFake4.SendToBack();
+            goldFake5.SendToBack();
+        }
+
+        private void goldFAke1_Click(object sender, EventArgs e)
+        {
+            goldStar1.BringToFront();
+        }
+
+        private void goldFake2_Click(object sender, EventArgs e)
+        {
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+        }
+
+        private void goldFake3_Click(object sender, EventArgs e)
+        {
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+        }
+
+        private void goldFake4_Click(object sender, EventArgs e)
+        {
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+            goldStar4.BringToFront();
+        }
+
+        private void goldFake5_Click(object sender, EventArgs e)
+        {
+            goldStar1.BringToFront();
+            goldStar2.BringToFront();
+            goldStar3.BringToFront();
+            goldStar4.BringToFront();
+            goldStar5.BringToFront();
+        }
+
+        private void panelYear1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ReportYear1Panel.BringToFront();
         }
     }
 }
