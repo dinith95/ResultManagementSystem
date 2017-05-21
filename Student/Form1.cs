@@ -26,6 +26,7 @@ namespace Student
         private void Form1_Load(object sender, EventArgs e)
         {
             ProfilePanel.BringToFront();
+            this.Text = "IM/2014/027";
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -211,6 +212,17 @@ namespace Student
         private void goldStar4_MouseLeave(object sender, EventArgs e)
         {
             
+        }
+
+        //Log out button-mouse enter
+        private void label22_MouseEnter(object sender, EventArgs e)
+        {
+            label22.ForeColor = Color.Maroon;
+        }
+
+        private void label22_MouseLeave(object sender, EventArgs e)
+        {
+            label22.ForeColor = Color.Black;
         }
     }
 }

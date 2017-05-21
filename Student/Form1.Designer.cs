@@ -775,6 +775,8 @@
             this.label22.Size = new System.Drawing.Size(72, 16);
             this.label22.TabIndex = 4;
             this.label22.Text = "      Log Out";
+            this.label22.MouseEnter += new System.EventHandler(this.label22_MouseEnter);
+            this.label22.MouseLeave += new System.EventHandler(this.label22_MouseLeave);
             // 
             // Form1
             // 
@@ -783,8 +785,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1001, 600);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.ProfilePanel);
             this.Controls.Add(this.FeedbackPanel);
+            this.Controls.Add(this.ProfilePanel);
             this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
