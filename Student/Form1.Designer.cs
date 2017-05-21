@@ -35,6 +35,9 @@
             this.analysisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.feedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coursesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.coursesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lecturersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ProfilePanel = new System.Windows.Forms.Panel();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
@@ -75,22 +78,24 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.FeedbackPanel = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.whiteStar5 = new System.Windows.Forms.PictureBox();
-            this.whiteStar4 = new System.Windows.Forms.PictureBox();
-            this.whiteStar3 = new System.Windows.Forms.PictureBox();
-            this.whiteStar2 = new System.Windows.Forms.PictureBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.whiteStar1 = new System.Windows.Forms.PictureBox();
-            this.goldStar5 = new System.Windows.Forms.PictureBox();
-            this.goldStar4 = new System.Windows.Forms.PictureBox();
-            this.goldStar2 = new System.Windows.Forms.PictureBox();
+            this.whiteStar2 = new System.Windows.Forms.PictureBox();
+            this.whiteStar3 = new System.Windows.Forms.PictureBox();
+            this.whiteStar4 = new System.Windows.Forms.PictureBox();
+            this.whiteStar5 = new System.Windows.Forms.PictureBox();
             this.goldStar1 = new System.Windows.Forms.PictureBox();
+            this.goldStar2 = new System.Windows.Forms.PictureBox();
+            this.goldStar4 = new System.Windows.Forms.PictureBox();
+            this.goldStar5 = new System.Windows.Forms.PictureBox();
             this.goldStar3 = new System.Windows.Forms.PictureBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label21 = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.ProfilePanel.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -102,15 +107,16 @@
             this.tabControl1.SuspendLayout();
             this.FeedbackPanel.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.whiteStar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldStar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
@@ -124,10 +130,11 @@
             this.resultsToolStripMenuItem,
             this.analysisToolStripMenuItem,
             this.feedbackToolStripMenuItem,
-            this.reportToolStripMenuItem});
+            this.reportToolStripMenuItem,
+            this.coursesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(-1, 118);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(302, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(384, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -150,6 +157,7 @@
             this.analysisToolStripMenuItem.Name = "analysisToolStripMenuItem";
             this.analysisToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.analysisToolStripMenuItem.Text = "Analysis";
+            this.analysisToolStripMenuItem.Click += new System.EventHandler(this.analysisToolStripMenuItem_Click);
             // 
             // feedbackToolStripMenuItem
             // 
@@ -163,6 +171,27 @@
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.reportToolStripMenuItem.Text = "Report";
+            // 
+            // coursesToolStripMenuItem
+            // 
+            this.coursesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.coursesToolStripMenuItem1,
+            this.lecturersToolStripMenuItem});
+            this.coursesToolStripMenuItem.Name = "coursesToolStripMenuItem";
+            this.coursesToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.coursesToolStripMenuItem.Text = "Information";
+            // 
+            // coursesToolStripMenuItem1
+            // 
+            this.coursesToolStripMenuItem1.Name = "coursesToolStripMenuItem1";
+            this.coursesToolStripMenuItem1.Size = new System.Drawing.Size(122, 22);
+            this.coursesToolStripMenuItem1.Text = "Courses";
+            // 
+            // lecturersToolStripMenuItem
+            // 
+            this.lecturersToolStripMenuItem.Name = "lecturersToolStripMenuItem";
+            this.lecturersToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.lecturersToolStripMenuItem.Text = "Lecturers";
             // 
             // ProfilePanel
             // 
@@ -545,27 +574,38 @@
             // FeedbackPanel
             // 
             this.FeedbackPanel.BackColor = System.Drawing.Color.Transparent;
+            this.FeedbackPanel.Controls.Add(this.label21);
             this.FeedbackPanel.Controls.Add(this.groupBox3);
             this.FeedbackPanel.Controls.Add(this.dataGridView3);
-            this.FeedbackPanel.Controls.Add(this.comboBox1);
-            this.FeedbackPanel.Controls.Add(this.textBox4);
-            this.FeedbackPanel.Controls.Add(this.label21);
             this.FeedbackPanel.Location = new System.Drawing.Point(0, 146);
             this.FeedbackPanel.Name = "FeedbackPanel";
             this.FeedbackPanel.Size = new System.Drawing.Size(1000, 454);
             this.FeedbackPanel.TabIndex = 3;
             // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(36, 47);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(172, 24);
+            this.label21.TabIndex = 7;
+            this.label21.Text = "Year X Semester X";
+            // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.whiteStar5);
-            this.groupBox3.Controls.Add(this.whiteStar4);
-            this.groupBox3.Controls.Add(this.whiteStar3);
-            this.groupBox3.Controls.Add(this.whiteStar2);
+            this.groupBox3.Controls.Add(this.button4);
+            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.pictureBox1);
             this.groupBox3.Controls.Add(this.whiteStar1);
-            this.groupBox3.Controls.Add(this.goldStar5);
-            this.groupBox3.Controls.Add(this.goldStar4);
-            this.groupBox3.Controls.Add(this.goldStar2);
+            this.groupBox3.Controls.Add(this.whiteStar2);
+            this.groupBox3.Controls.Add(this.whiteStar3);
+            this.groupBox3.Controls.Add(this.whiteStar4);
+            this.groupBox3.Controls.Add(this.whiteStar5);
             this.groupBox3.Controls.Add(this.goldStar1);
+            this.groupBox3.Controls.Add(this.goldStar2);
+            this.groupBox3.Controls.Add(this.goldStar4);
+            this.groupBox3.Controls.Add(this.goldStar5);
             this.groupBox3.Controls.Add(this.goldStar3);
             this.groupBox3.Controls.Add(this.textBox5);
             this.groupBox3.Location = new System.Drawing.Point(624, 49);
@@ -575,99 +615,132 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Feedback Form";
             // 
-            // whiteStar5
+            // button4
             // 
-            this.whiteStar5.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar5.Image")));
-            this.whiteStar5.Location = new System.Drawing.Point(186, 241);
-            this.whiteStar5.Name = "whiteStar5";
-            this.whiteStar5.Size = new System.Drawing.Size(24, 24);
-            this.whiteStar5.TabIndex = 10;
-            this.whiteStar5.TabStop = false;
-            this.whiteStar5.Click += new System.EventHandler(this.whiteStar5_Click);
+            this.button4.Location = new System.Drawing.Point(255, 293);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 18;
+            this.button4.Text = "Cancel";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // whiteStar4
+            // button3
             // 
-            this.whiteStar4.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar4.Image")));
-            this.whiteStar4.Location = new System.Drawing.Point(216, 241);
-            this.whiteStar4.Name = "whiteStar4";
-            this.whiteStar4.Size = new System.Drawing.Size(24, 24);
-            this.whiteStar4.TabIndex = 9;
-            this.whiteStar4.TabStop = false;
-            this.whiteStar4.Click += new System.EventHandler(this.whiteStar4_Click);
+            this.button3.Location = new System.Drawing.Point(174, 293);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 17;
+            this.button3.Text = "Submit";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(306, 241);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // whiteStar1
+            // 
+            this.whiteStar1.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar1.Image")));
+            this.whiteStar1.Location = new System.Drawing.Point(152, 241);
+            this.whiteStar1.Name = "whiteStar1";
+            this.whiteStar1.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar1.TabIndex = 10;
+            this.whiteStar1.TabStop = false;
+            this.whiteStar1.Click += new System.EventHandler(this.whiteStar5_Click);
+            this.whiteStar1.MouseEnter += new System.EventHandler(this.whiteStar5_MouseEnter);
+            this.whiteStar1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.whiteStar5_MouseMove);
+            // 
+            // whiteStar2
+            // 
+            this.whiteStar2.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar2.Image")));
+            this.whiteStar2.Location = new System.Drawing.Point(182, 241);
+            this.whiteStar2.Name = "whiteStar2";
+            this.whiteStar2.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar2.TabIndex = 9;
+            this.whiteStar2.TabStop = false;
+            this.whiteStar2.Click += new System.EventHandler(this.whiteStar4_Click);
+            this.whiteStar2.MouseEnter += new System.EventHandler(this.whiteStar4_MouseEnter);
             // 
             // whiteStar3
             // 
             this.whiteStar3.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar3.Image")));
-            this.whiteStar3.Location = new System.Drawing.Point(246, 241);
+            this.whiteStar3.Location = new System.Drawing.Point(212, 241);
             this.whiteStar3.Name = "whiteStar3";
             this.whiteStar3.Size = new System.Drawing.Size(24, 24);
             this.whiteStar3.TabIndex = 8;
             this.whiteStar3.TabStop = false;
             this.whiteStar3.Click += new System.EventHandler(this.whiteStar3_Click);
             // 
-            // whiteStar2
+            // whiteStar4
             // 
-            this.whiteStar2.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar2.Image")));
-            this.whiteStar2.Location = new System.Drawing.Point(276, 241);
-            this.whiteStar2.Name = "whiteStar2";
-            this.whiteStar2.Size = new System.Drawing.Size(24, 24);
-            this.whiteStar2.TabIndex = 7;
-            this.whiteStar2.TabStop = false;
-            this.whiteStar2.Click += new System.EventHandler(this.whiteStar2_Click);
+            this.whiteStar4.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar4.Image")));
+            this.whiteStar4.Location = new System.Drawing.Point(242, 241);
+            this.whiteStar4.Name = "whiteStar4";
+            this.whiteStar4.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar4.TabIndex = 7;
+            this.whiteStar4.TabStop = false;
+            this.whiteStar4.Click += new System.EventHandler(this.whiteStar2_Click);
             // 
-            // whiteStar1
+            // whiteStar5
             // 
-            this.whiteStar1.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar1.Image")));
-            this.whiteStar1.Location = new System.Drawing.Point(306, 241);
-            this.whiteStar1.Name = "whiteStar1";
-            this.whiteStar1.Size = new System.Drawing.Size(24, 24);
-            this.whiteStar1.TabIndex = 6;
-            this.whiteStar1.TabStop = false;
-            this.whiteStar1.Click += new System.EventHandler(this.whiteStar1_Click);
-            // 
-            // goldStar5
-            // 
-            this.goldStar5.Image = ((System.Drawing.Image)(resources.GetObject("goldStar5.Image")));
-            this.goldStar5.Location = new System.Drawing.Point(186, 241);
-            this.goldStar5.Name = "goldStar5";
-            this.goldStar5.Size = new System.Drawing.Size(24, 24);
-            this.goldStar5.TabIndex = 15;
-            this.goldStar5.TabStop = false;
-            this.goldStar5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar5_MouseClick);
-            // 
-            // goldStar4
-            // 
-            this.goldStar4.Image = ((System.Drawing.Image)(resources.GetObject("goldStar4.Image")));
-            this.goldStar4.Location = new System.Drawing.Point(216, 241);
-            this.goldStar4.Name = "goldStar4";
-            this.goldStar4.Size = new System.Drawing.Size(24, 24);
-            this.goldStar4.TabIndex = 14;
-            this.goldStar4.TabStop = false;
-            this.goldStar4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar4_MouseClick);
-            // 
-            // goldStar2
-            // 
-            this.goldStar2.Image = ((System.Drawing.Image)(resources.GetObject("goldStar2.Image")));
-            this.goldStar2.Location = new System.Drawing.Point(275, 241);
-            this.goldStar2.Name = "goldStar2";
-            this.goldStar2.Size = new System.Drawing.Size(24, 24);
-            this.goldStar2.TabIndex = 13;
-            this.goldStar2.TabStop = false;
-            this.goldStar2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar2_MouseClick);
+            this.whiteStar5.Image = ((System.Drawing.Image)(resources.GetObject("whiteStar5.Image")));
+            this.whiteStar5.Location = new System.Drawing.Point(272, 241);
+            this.whiteStar5.Name = "whiteStar5";
+            this.whiteStar5.Size = new System.Drawing.Size(24, 24);
+            this.whiteStar5.TabIndex = 6;
+            this.whiteStar5.TabStop = false;
+            this.whiteStar5.Click += new System.EventHandler(this.whiteStar1_Click);
             // 
             // goldStar1
             // 
             this.goldStar1.Image = ((System.Drawing.Image)(resources.GetObject("goldStar1.Image")));
-            this.goldStar1.Location = new System.Drawing.Point(305, 241);
+            this.goldStar1.Location = new System.Drawing.Point(152, 241);
             this.goldStar1.Name = "goldStar1";
             this.goldStar1.Size = new System.Drawing.Size(24, 24);
-            this.goldStar1.TabIndex = 12;
+            this.goldStar1.TabIndex = 15;
             this.goldStar1.TabStop = false;
+            this.goldStar1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar5_MouseClick);
+            this.goldStar1.MouseLeave += new System.EventHandler(this.goldStar5_MouseLeave);
+            // 
+            // goldStar2
+            // 
+            this.goldStar2.Image = ((System.Drawing.Image)(resources.GetObject("goldStar2.Image")));
+            this.goldStar2.Location = new System.Drawing.Point(182, 241);
+            this.goldStar2.Name = "goldStar2";
+            this.goldStar2.Size = new System.Drawing.Size(24, 24);
+            this.goldStar2.TabIndex = 14;
+            this.goldStar2.TabStop = false;
+            this.goldStar2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar4_MouseClick);
+            this.goldStar2.MouseLeave += new System.EventHandler(this.goldStar4_MouseLeave);
+            // 
+            // goldStar4
+            // 
+            this.goldStar4.Image = ((System.Drawing.Image)(resources.GetObject("goldStar4.Image")));
+            this.goldStar4.Location = new System.Drawing.Point(241, 241);
+            this.goldStar4.Name = "goldStar4";
+            this.goldStar4.Size = new System.Drawing.Size(24, 24);
+            this.goldStar4.TabIndex = 13;
+            this.goldStar4.TabStop = false;
+            this.goldStar4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.goldStar2_MouseClick);
+            // 
+            // goldStar5
+            // 
+            this.goldStar5.Image = ((System.Drawing.Image)(resources.GetObject("goldStar5.Image")));
+            this.goldStar5.Location = new System.Drawing.Point(271, 241);
+            this.goldStar5.Name = "goldStar5";
+            this.goldStar5.Size = new System.Drawing.Size(24, 24);
+            this.goldStar5.TabIndex = 12;
+            this.goldStar5.TabStop = false;
             // 
             // goldStar3
             // 
             this.goldStar3.Image = ((System.Drawing.Image)(resources.GetObject("goldStar3.Image")));
-            this.goldStar3.Location = new System.Drawing.Point(246, 241);
+            this.goldStar3.Location = new System.Drawing.Point(212, 241);
             this.goldStar3.Name = "goldStar3";
             this.goldStar3.Size = new System.Drawing.Size(24, 24);
             this.goldStar3.TabIndex = 11;
@@ -690,29 +763,18 @@
             this.dataGridView3.Size = new System.Drawing.Size(550, 320);
             this.dataGridView3.TabIndex = 4;
             // 
-            // comboBox1
+            // label22
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(100, 49);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 3;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(233, 50);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(118, 20);
-            this.textBox4.TabIndex = 2;
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(27, 53);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(62, 13);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "Search By :";
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Image = ((System.Drawing.Image)(resources.GetObject("label22.Image")));
+            this.label22.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label22.Location = new System.Drawing.Point(915, 122);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(72, 16);
+            this.label22.TabIndex = 4;
+            this.label22.Text = "      Log Out";
             // 
             // Form1
             // 
@@ -720,14 +782,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1001, 600);
-            this.Controls.Add(this.FeedbackPanel);
+            this.Controls.Add(this.label22);
             this.Controls.Add(this.ProfilePanel);
+            this.Controls.Add(this.FeedbackPanel);
             this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IM/20**/***";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
@@ -746,15 +811,16 @@
             this.FeedbackPanel.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.whiteStar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.whiteStar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.goldStar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.whiteStar5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
             this.ResumeLayout(false);
@@ -810,22 +876,27 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Panel FeedbackPanel;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.PictureBox whiteStar5;
-        private System.Windows.Forms.PictureBox whiteStar4;
-        private System.Windows.Forms.PictureBox whiteStar3;
-        private System.Windows.Forms.PictureBox whiteStar2;
         private System.Windows.Forms.PictureBox whiteStar1;
-        private System.Windows.Forms.PictureBox goldStar5;
-        private System.Windows.Forms.PictureBox goldStar4;
-        private System.Windows.Forms.PictureBox goldStar2;
+        private System.Windows.Forms.PictureBox whiteStar2;
+        private System.Windows.Forms.PictureBox whiteStar3;
+        private System.Windows.Forms.PictureBox whiteStar4;
+        private System.Windows.Forms.PictureBox whiteStar5;
         private System.Windows.Forms.PictureBox goldStar1;
+        private System.Windows.Forms.PictureBox goldStar2;
+        private System.Windows.Forms.PictureBox goldStar4;
+        private System.Windows.Forms.PictureBox goldStar5;
         private System.Windows.Forms.PictureBox goldStar3;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.DataGridView dataGridView3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.ToolStripMenuItem coursesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem coursesToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem lecturersToolStripMenuItem;
+        private System.Windows.Forms.Label label22;
     }
 }
 
