@@ -35,6 +35,9 @@
             this.analysisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.feedbackToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelYear1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelYear2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelYear3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.coursesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.coursesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.lecturersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -72,6 +75,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.ResultsPanel = new System.Windows.Forms.Panel();
+            this.label25 = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
+            this.label24 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -101,9 +108,6 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label22 = new System.Windows.Forms.Label();
-            this.panelYear1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelYear2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelYear3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ReportYear1Panel = new System.Windows.Forms.Panel();
             this.menuStrip1.SuspendLayout();
             this.ProfilePanel.SuspendLayout();
@@ -189,6 +193,25 @@
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
             this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.reportToolStripMenuItem.Text = "Report";
+            // 
+            // panelYear1ToolStripMenuItem
+            // 
+            this.panelYear1ToolStripMenuItem.Name = "panelYear1ToolStripMenuItem";
+            this.panelYear1ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear1ToolStripMenuItem.Text = "panel year 1(temp)";
+            this.panelYear1ToolStripMenuItem.Click += new System.EventHandler(this.panelYear1ToolStripMenuItem_Click);
+            // 
+            // panelYear2ToolStripMenuItem
+            // 
+            this.panelYear2ToolStripMenuItem.Name = "panelYear2ToolStripMenuItem";
+            this.panelYear2ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear2ToolStripMenuItem.Text = "Panel year 2(temp)";
+            // 
+            // panelYear3ToolStripMenuItem
+            // 
+            this.panelYear3ToolStripMenuItem.Name = "panelYear3ToolStripMenuItem";
+            this.panelYear3ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear3ToolStripMenuItem.Text = "panel year 3/4(temp)";
             // 
             // coursesToolStripMenuItem
             // 
@@ -533,11 +556,50 @@
             // ResultsPanel
             // 
             this.ResultsPanel.BackColor = System.Drawing.Color.Transparent;
+            this.ResultsPanel.Controls.Add(this.label25);
+            this.ResultsPanel.Controls.Add(this.progressBar1);
+            this.ResultsPanel.Controls.Add(this.label24);
+            this.ResultsPanel.Controls.Add(this.label23);
             this.ResultsPanel.Controls.Add(this.tabControl1);
             this.ResultsPanel.Location = new System.Drawing.Point(0, 146);
             this.ResultsPanel.Name = "ResultsPanel";
             this.ResultsPanel.Size = new System.Drawing.Size(1000, 454);
             this.ResultsPanel.TabIndex = 2;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(667, 138);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(133, 13);
+            this.label25.TabIndex = 4;
+            this.label25.Text = "Completion of the Degree :";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(670, 176);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(314, 23);
+            this.progressBar1.TabIndex = 3;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Location = new System.Drawing.Point(758, 71);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(32, 13);
+            this.label24.TabIndex = 2;
+            this.label24.Text = "3.99";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(667, 71);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(72, 13);
+            this.label23.TabIndex = 1;
+            this.label23.Text = "Current GPA :";
             // 
             // tabControl1
             // 
@@ -548,7 +610,7 @@
             this.tabControl1.Location = new System.Drawing.Point(36, 36);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(637, 377);
+            this.tabControl1.Size = new System.Drawing.Size(608, 377);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -556,7 +618,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(629, 351);
+            this.tabPage1.Size = new System.Drawing.Size(600, 351);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Year 1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -566,7 +628,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(629, 351);
+            this.tabPage2.Size = new System.Drawing.Size(600, 351);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Year 2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -575,7 +637,7 @@
             // 
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(629, 351);
+            this.tabPage3.Size = new System.Drawing.Size(600, 351);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Year 3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -584,7 +646,7 @@
             // 
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Size = new System.Drawing.Size(629, 351);
+            this.tabPage4.Size = new System.Drawing.Size(600, 351);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Year 4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -747,7 +809,7 @@
             // goldStar4
             // 
             this.goldStar4.Image = ((System.Drawing.Image)(resources.GetObject("goldStar4.Image")));
-            this.goldStar4.Location = new System.Drawing.Point(241, 241);
+            this.goldStar4.Location = new System.Drawing.Point(242, 241);
             this.goldStar4.Name = "goldStar4";
             this.goldStar4.Size = new System.Drawing.Size(24, 24);
             this.goldStar4.TabIndex = 13;
@@ -859,25 +921,6 @@
             this.label22.MouseEnter += new System.EventHandler(this.label22_MouseEnter);
             this.label22.MouseLeave += new System.EventHandler(this.label22_MouseLeave);
             // 
-            // panelYear1ToolStripMenuItem
-            // 
-            this.panelYear1ToolStripMenuItem.Name = "panelYear1ToolStripMenuItem";
-            this.panelYear1ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.panelYear1ToolStripMenuItem.Text = "panel year 1(temp)";
-            this.panelYear1ToolStripMenuItem.Click += new System.EventHandler(this.panelYear1ToolStripMenuItem_Click);
-            // 
-            // panelYear2ToolStripMenuItem
-            // 
-            this.panelYear2ToolStripMenuItem.Name = "panelYear2ToolStripMenuItem";
-            this.panelYear2ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.panelYear2ToolStripMenuItem.Text = "Panel year 2(temp)";
-            // 
-            // panelYear3ToolStripMenuItem
-            // 
-            this.panelYear3ToolStripMenuItem.Name = "panelYear3ToolStripMenuItem";
-            this.panelYear3ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
-            this.panelYear3ToolStripMenuItem.Text = "panel year 3/4(temp)";
-            // 
             // ReportYear1Panel
             // 
             this.ReportYear1Panel.BackColor = System.Drawing.Color.Transparent;
@@ -893,10 +936,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1001, 600);
             this.Controls.Add(this.label22);
+            this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.ReportYear1Panel);
             this.Controls.Add(this.FeedbackPanel);
             this.Controls.Add(this.ProfilePanel);
-            this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
@@ -917,6 +960,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResultsPanel.ResumeLayout(false);
+            this.ResultsPanel.PerformLayout();
             this.tabControl1.ResumeLayout(false);
             this.FeedbackPanel.ResumeLayout(false);
             this.FeedbackPanel.PerformLayout();
@@ -1022,6 +1066,10 @@
         private System.Windows.Forms.ToolStripMenuItem panelYear2ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem panelYear3ToolStripMenuItem;
         private System.Windows.Forms.Panel ReportYear1Panel;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.ProgressBar progressBar1;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label label23;
     }
 }
 

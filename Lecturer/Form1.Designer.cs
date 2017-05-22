@@ -90,6 +90,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.Feedbacks = new System.Windows.Forms.Panel();
             this.grpbox = new System.Windows.Forms.GroupBox();
+            this.feedbackTxt = new System.Windows.Forms.TextBox();
+            this.dataGridView7 = new System.Windows.Forms.DataGridView();
             this.RatingsPanel = new System.Windows.Forms.Panel();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.progressBar5 = new System.Windows.Forms.ProgressBar();
@@ -132,8 +134,13 @@
             this.goldStar4 = new System.Windows.Forms.PictureBox();
             this.goldStar5 = new System.Windows.Forms.PictureBox();
             this.goldStar3 = new System.Windows.Forms.PictureBox();
-            this.dataGridView7 = new System.Windows.Forms.DataGridView();
-            this.feedbackTxt = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.Level = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.dataGridView10 = new System.Windows.Forms.DataGridView();
+            this.dataGridView11 = new System.Windows.Forms.DataGridView();
             this.menuStrip1.SuspendLayout();
             this.ProfilePanel.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -143,6 +150,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ResultsPanel.SuspendLayout();
             this.FeedbackPanel.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -155,6 +163,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView8)).BeginInit();
             this.Feedbacks.SuspendLayout();
             this.grpbox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
             this.RatingsPanel.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
@@ -192,7 +201,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).BeginInit();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -559,6 +570,10 @@
             // ResultsPanel
             // 
             this.ResultsPanel.BackColor = System.Drawing.Color.Transparent;
+            this.ResultsPanel.Controls.Add(this.dataGridView11);
+            this.ResultsPanel.Controls.Add(this.groupBox4);
+            this.ResultsPanel.Controls.Add(this.label15);
+            this.ResultsPanel.Controls.Add(this.comboBox2);
             this.ResultsPanel.Location = new System.Drawing.Point(0, 146);
             this.ResultsPanel.Name = "ResultsPanel";
             this.ResultsPanel.Size = new System.Drawing.Size(1000, 454);
@@ -737,7 +752,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(509, 49);
+            this.button4.Location = new System.Drawing.Point(523, 49);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 4;
@@ -747,7 +762,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(428, 49);
+            this.button3.Location = new System.Drawing.Point(442, 49);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 3;
@@ -773,6 +788,24 @@
             this.grpbox.TabIndex = 0;
             this.grpbox.TabStop = false;
             this.grpbox.Text = "Feedbacks";
+            // 
+            // feedbackTxt
+            // 
+            this.feedbackTxt.BackColor = System.Drawing.Color.LightGoldenrodYellow;
+            this.feedbackTxt.Enabled = false;
+            this.feedbackTxt.Location = new System.Drawing.Point(209, 29);
+            this.feedbackTxt.Multiline = true;
+            this.feedbackTxt.Name = "feedbackTxt";
+            this.feedbackTxt.Size = new System.Drawing.Size(300, 272);
+            this.feedbackTxt.TabIndex = 1;
+            // 
+            // dataGridView7
+            // 
+            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView7.Location = new System.Drawing.Point(15, 29);
+            this.dataGridView7.Name = "dataGridView7";
+            this.dataGridView7.Size = new System.Drawing.Size(178, 272);
+            this.dataGridView7.TabIndex = 0;
             // 
             // RatingsPanel
             // 
@@ -1181,23 +1214,72 @@
             this.goldStar3.TabIndex = 21;
             this.goldStar3.TabStop = false;
             // 
-            // dataGridView7
+            // comboBox2
             // 
-            this.dataGridView7.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView7.Location = new System.Drawing.Point(15, 29);
-            this.dataGridView7.Name = "dataGridView7";
-            this.dataGridView7.Size = new System.Drawing.Size(178, 272);
-            this.dataGridView7.TabIndex = 0;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(611, 30);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 0;
             // 
-            // feedbackTxt
+            // label15
             // 
-            this.feedbackTxt.BackColor = System.Drawing.Color.LightGoldenrodYellow;
-            this.feedbackTxt.Enabled = false;
-            this.feedbackTxt.Location = new System.Drawing.Point(209, 29);
-            this.feedbackTxt.Multiline = true;
-            this.feedbackTxt.Name = "feedbackTxt";
-            this.feedbackTxt.Size = new System.Drawing.Size(300, 272);
-            this.feedbackTxt.TabIndex = 1;
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(512, 33);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(85, 13);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Academic Year :";
+            // 
+            // Level
+            // 
+            this.Level.AutoSize = true;
+            this.Level.Location = new System.Drawing.Point(42, 36);
+            this.Level.Name = "Level";
+            this.Level.Size = new System.Drawing.Size(39, 13);
+            this.Level.TabIndex = 2;
+            this.Level.Text = "Level :";
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
+            this.comboBox3.Location = new System.Drawing.Point(91, 31);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(64, 21);
+            this.comboBox3.TabIndex = 3;
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.dataGridView10);
+            this.groupBox4.Controls.Add(this.Level);
+            this.groupBox4.Controls.Add(this.comboBox3);
+            this.groupBox4.Location = new System.Drawing.Point(23, 21);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(462, 415);
+            this.groupBox4.TabIndex = 4;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Choose the Course Module";
+            // 
+            // dataGridView10
+            // 
+            this.dataGridView10.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView10.Location = new System.Drawing.Point(23, 75);
+            this.dataGridView10.Name = "dataGridView10";
+            this.dataGridView10.Size = new System.Drawing.Size(417, 324);
+            this.dataGridView10.TabIndex = 4;
+            // 
+            // dataGridView11
+            // 
+            this.dataGridView11.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView11.Location = new System.Drawing.Point(515, 78);
+            this.dataGridView11.Name = "dataGridView11";
+            this.dataGridView11.Size = new System.Drawing.Size(468, 358);
+            this.dataGridView11.TabIndex = 5;
             // 
             // Form1
             // 
@@ -1227,6 +1309,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResultsPanel.ResumeLayout(false);
+            this.ResultsPanel.PerformLayout();
             this.FeedbackPanel.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -1240,6 +1324,7 @@
             this.Feedbacks.ResumeLayout(false);
             this.grpbox.ResumeLayout(false);
             this.grpbox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
             this.RatingsPanel.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
@@ -1277,7 +1362,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.goldStar4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.goldStar3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView7)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView11)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1390,6 +1478,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.TextBox feedbackTxt;
         private System.Windows.Forms.DataGridView dataGridView7;
+        private System.Windows.Forms.DataGridView dataGridView11;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.DataGridView dataGridView10;
+        private System.Windows.Forms.Label Level;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ComboBox comboBox2;
     }
 }
 
