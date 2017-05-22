@@ -68,10 +68,14 @@ namespace ResultManagementSystemKalpa
         private void frmadmin_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'database81DataSet1.courses' table. You can move, or remove it, as needed.
-            this.coursesTableAdapter1.Fill(this.database81DataSet1.courses);
-            // TODO: This line of code loads data into the 'database81DataSet.courses' table. You can move, or remove it, as needed.
-            this.coursesTableAdapter.Fill(this.database81DataSet.courses);
-
+            try
+            {
+                this.coursesTableAdapter1.Fill(this.database81DataSet1.courses);
+                // TODO: This line of code loads data into the 'database81DataSet.courses' table. You can move, or remove it, as needed.
+                this.coursesTableAdapter.Fill(this.database81DataSet.courses);
+            }
+            catch(Exception ex)
+            { };
         }
 
         private void label1_MouseHover(object sender, EventArgs e)

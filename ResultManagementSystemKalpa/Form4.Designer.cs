@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmadmin));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.labelfname = new System.Windows.Forms.Label();
             this.labellname = new System.Windows.Forms.Label();
             this.labelrno = new System.Windows.Forms.Label();
@@ -313,7 +313,7 @@
             // 
             // PanelStsffAdd
             // 
-            this.PanelStsffAdd.BackColor = System.Drawing.Color.Turquoise;
+            this.PanelStsffAdd.BackColor = System.Drawing.Color.Transparent;
             this.PanelStsffAdd.Controls.Add(this.textBox8);
             this.PanelStsffAdd.Controls.Add(this.label8);
             this.PanelStsffAdd.Controls.Add(this.textBox7);
@@ -625,7 +625,7 @@
             // 
             // panelCourses
             // 
-            this.panelCourses.BackColor = System.Drawing.Color.Violet;
+            this.panelCourses.BackColor = System.Drawing.Color.Transparent;
             this.panelCourses.Controls.Add(this.panel2);
             this.panelCourses.Controls.Add(this.btnadd);
             this.panelCourses.Controls.Add(this.textBox4);
@@ -1038,7 +1038,7 @@
             // 
             // panelDelete
             // 
-            this.panelDelete.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.panelDelete.BackColor = System.Drawing.Color.Transparent;
             this.panelDelete.Controls.Add(this.dataGridView2);
             this.panelDelete.Controls.Add(this.panel5);
             this.panelDelete.Controls.Add(this.dataGridView1);
@@ -1152,14 +1152,14 @@
             this.luctrerdateDataGridViewTextBoxColumn,
             this.practicaldayDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.coursesBindingSource1;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.LightSalmon;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HotTrack;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.LightSalmon;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HotTrack;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             this.dataGridView1.Location = new System.Drawing.Point(20, 94);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(690, 252);
@@ -1346,7 +1346,7 @@
             // 
             // PanelStudent
             // 
-            this.PanelStudent.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.PanelStudent.BackColor = System.Drawing.Color.Transparent;
             this.PanelStudent.Controls.Add(this.textBox13);
             this.PanelStudent.Controls.Add(this.btnaddstudent);
             this.PanelStudent.Controls.Add(this.btnClearstudent);
@@ -1575,7 +1575,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(201, 16);
             this.label15.TabIndex = 40;
-            this.label15.Text = "Student Redistation Number";
+            this.label15.Text = "Student Registation Number";
             // 
             // panel1
             // 
