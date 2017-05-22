@@ -51,3 +51,4 @@ C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystem
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\Database81.accdb
