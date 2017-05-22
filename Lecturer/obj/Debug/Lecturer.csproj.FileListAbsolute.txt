@@ -2,7 +2,7 @@ C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\bin\Debug\Lec
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\bin\Debug\Lecturer.exe
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\bin\Debug\Lecturer.pdb
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\obj\Debug\Lecturer.csprojResolveAssemblyReference.cache
-C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\obj\Debug\Lecturer.Form1.resources
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\obj\Debug\Lecturer.Lecturer.resources
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\obj\Debug\Lecturer.Properties.Resources.resources
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\obj\Debug\Lecturer.csproj.GenerateResource.Cache
 C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\Lecturer\obj\Debug\Lecturer.exe

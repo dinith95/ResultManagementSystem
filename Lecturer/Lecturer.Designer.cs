@@ -1,6 +1,6 @@
 ﻿namespace Lecturer
 {
-    partial class Form1
+    partial class Lecturer
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lecturer));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.profileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.resultsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -215,9 +215,9 @@
             this.resultsToolStripMenuItem,
             this.analysisToolStripMenuItem,
             this.feedbackToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(-1, 118);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 118);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(253, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(345, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -1281,7 +1281,7 @@
             this.goldStar3.TabIndex = 21;
             this.goldStar3.TabStop = false;
             // 
-            // Form1
+            // Lecturer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1294,7 +1294,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "Lecturer";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Name here!";
             this.Load += new System.EventHandler(this.Form1_Load);
