@@ -254,5 +254,10 @@ namespace ResultManagementSystemKalpa
             goldStar4.BringToFront();
             goldStar5.BringToFront();
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

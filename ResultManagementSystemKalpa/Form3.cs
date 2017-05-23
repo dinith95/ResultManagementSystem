@@ -155,7 +155,7 @@ namespace ResultManagementSystemKalpa
 
         private void addResultsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-           
+            AddResultsPanel.BringToFront();
         }
 
         private void checkResultsToolStripMenuItem_Click(object sender, EventArgs e)

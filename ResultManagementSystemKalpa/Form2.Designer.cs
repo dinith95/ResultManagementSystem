@@ -192,95 +192,95 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(127, 234);
+            this.label20.Location = new System.Drawing.Point(151, 220);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(99, 13);
+            this.label20.Size = new System.Drawing.Size(119, 16);
             this.label20.TabIndex = 61;
             this.label20.Text = "XXXXXX@****.com";
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(127, 202);
+            this.label19.Location = new System.Drawing.Point(151, 188);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(51, 13);
+            this.label19.Size = new System.Drawing.Size(62, 16);
             this.label19.TabIndex = 60;
             this.label19.Text = "07********";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(127, 169);
+            this.label18.Location = new System.Drawing.Point(151, 155);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(31, 13);
+            this.label18.Size = new System.Drawing.Size(35, 16);
             this.label18.TabIndex = 59;
             this.label18.Text = "X.XX";
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(127, 136);
+            this.label17.Location = new System.Drawing.Point(151, 122);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 13);
+            this.label17.Size = new System.Drawing.Size(16, 16);
             this.label17.TabIndex = 58;
             this.label17.Text = "X";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(127, 106);
+            this.label16.Location = new System.Drawing.Point(151, 92);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(49, 13);
+            this.label16.Size = new System.Drawing.Size(56, 16);
             this.label16.TabIndex = 57;
             this.label16.Text = "XXXXXX";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(127, 75);
+            this.label15.Location = new System.Drawing.Point(151, 61);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(49, 13);
+            this.label15.Size = new System.Drawing.Size(56, 16);
             this.label15.TabIndex = 56;
             this.label15.Text = "XXXXXX";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(127, 46);
+            this.label14.Location = new System.Drawing.Point(151, 32);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(61, 13);
+            this.label14.Size = new System.Drawing.Size(69, 16);
             this.label14.TabIndex = 55;
             this.label14.Text = "IM/20**/***";
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(155, 264);
+            this.dataGridView1.Location = new System.Drawing.Point(27, 278);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(410, 137);
+            this.dataGridView1.Size = new System.Drawing.Size(456, 137);
             this.dataGridView1.TabIndex = 54;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(20, 234);
+            this.label8.Location = new System.Drawing.Point(26, 220);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 13);
+            this.label8.Size = new System.Drawing.Size(105, 16);
             this.label8.TabIndex = 53;
             this.label8.Text = "e-mail Address :";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(20, 202);
+            this.label7.Location = new System.Drawing.Point(26, 188);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 13);
+            this.label7.Size = new System.Drawing.Size(83, 16);
             this.label7.TabIndex = 52;
             this.label7.Text = "Contact No. :";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(386, 192);
+            this.button1.Location = new System.Drawing.Point(336, 192);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(147, 23);
             this.button1.TabIndex = 51;
@@ -290,7 +290,7 @@
             // pictureBox9
             // 
             this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
-            this.pictureBox9.Location = new System.Drawing.Point(386, 26);
+            this.pictureBox9.Location = new System.Drawing.Point(336, 26);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(147, 156);
             this.pictureBox9.TabIndex = 50;
@@ -298,10 +298,10 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 25);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(600, 351);
+            this.tabPage1.Size = new System.Drawing.Size(600, 348);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Year 1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -309,10 +309,10 @@
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(758, 71);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(32, 13);
+            this.label24.Size = new System.Drawing.Size(36, 16);
             this.label24.TabIndex = 2;
             this.label24.Text = "3.99";
             // 
@@ -321,7 +321,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(667, 71);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(72, 13);
+            this.label23.Size = new System.Drawing.Size(87, 16);
             this.label23.TabIndex = 1;
             this.label23.Text = "Current GPA :";
             // 
@@ -379,6 +379,7 @@
             this.groupBox3.Controls.Add(this.goldFake4);
             this.groupBox3.Controls.Add(this.goldFake5);
             this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(624, 49);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(347, 374);
@@ -595,7 +596,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(667, 138);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(133, 13);
+            this.label25.Size = new System.Drawing.Size(166, 16);
             this.label25.TabIndex = 4;
             this.label25.Text = "Completion of the Degree :";
             // 
@@ -610,16 +611,17 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 169);
+            this.label6.Location = new System.Drawing.Point(26, 155);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(101, 13);
+            this.label6.Size = new System.Drawing.Size(90, 16);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Current GPA value :";
+            this.label6.Text = "Current GPA  :";
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.profileToolStripMenuItem,
             this.resultsToolStripMenuItem,
@@ -629,33 +631,33 @@
             this.coursesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 118);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(384, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(430, 24);
             this.menuStrip1.TabIndex = 6;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // profileToolStripMenuItem
             // 
             this.profileToolStripMenuItem.Name = "profileToolStripMenuItem";
-            this.profileToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.profileToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
             this.profileToolStripMenuItem.Text = "Profile";
             // 
             // resultsToolStripMenuItem
             // 
             this.resultsToolStripMenuItem.Name = "resultsToolStripMenuItem";
-            this.resultsToolStripMenuItem.Size = new System.Drawing.Size(56, 20);
+            this.resultsToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
             this.resultsToolStripMenuItem.Text = "Results";
             this.resultsToolStripMenuItem.Click += new System.EventHandler(this.resultsToolStripMenuItem_Click);
             // 
             // analysisToolStripMenuItem
             // 
             this.analysisToolStripMenuItem.Name = "analysisToolStripMenuItem";
-            this.analysisToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
+            this.analysisToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.analysisToolStripMenuItem.Text = "Analysis";
             // 
             // feedbackToolStripMenuItem
             // 
             this.feedbackToolStripMenuItem.Name = "feedbackToolStripMenuItem";
-            this.feedbackToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
+            this.feedbackToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
             this.feedbackToolStripMenuItem.Text = "Feedback";
             this.feedbackToolStripMenuItem.Click += new System.EventHandler(this.feedbackToolStripMenuItem_Click);
             // 
@@ -666,26 +668,26 @@
             this.panelYear2ToolStripMenuItem,
             this.panelYear3ToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.reportToolStripMenuItem.Text = "Report";
             this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
             // 
             // panelYear1ToolStripMenuItem
             // 
             this.panelYear1ToolStripMenuItem.Name = "panelYear1ToolStripMenuItem";
-            this.panelYear1ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear1ToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.panelYear1ToolStripMenuItem.Text = "panel year 1(temp)";
             // 
             // panelYear2ToolStripMenuItem
             // 
             this.panelYear2ToolStripMenuItem.Name = "panelYear2ToolStripMenuItem";
-            this.panelYear2ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear2ToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.panelYear2ToolStripMenuItem.Text = "Panel year 2(temp)";
             // 
             // panelYear3ToolStripMenuItem
             // 
             this.panelYear3ToolStripMenuItem.Name = "panelYear3ToolStripMenuItem";
-            this.panelYear3ToolStripMenuItem.Size = new System.Drawing.Size(184, 22);
+            this.panelYear3ToolStripMenuItem.Size = new System.Drawing.Size(199, 22);
             this.panelYear3ToolStripMenuItem.Text = "panel year 3/4(temp)";
             // 
             // coursesToolStripMenuItem
@@ -694,19 +696,19 @@
             this.coursesToolStripMenuItem1,
             this.lecturersToolStripMenuItem});
             this.coursesToolStripMenuItem.Name = "coursesToolStripMenuItem";
-            this.coursesToolStripMenuItem.Size = new System.Drawing.Size(82, 20);
+            this.coursesToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
             this.coursesToolStripMenuItem.Text = "Information";
             // 
             // coursesToolStripMenuItem1
             // 
             this.coursesToolStripMenuItem1.Name = "coursesToolStripMenuItem1";
-            this.coursesToolStripMenuItem1.Size = new System.Drawing.Size(122, 22);
+            this.coursesToolStripMenuItem1.Size = new System.Drawing.Size(131, 22);
             this.coursesToolStripMenuItem1.Text = "Courses";
             // 
             // lecturersToolStripMenuItem
             // 
             this.lecturersToolStripMenuItem.Name = "lecturersToolStripMenuItem";
-            this.lecturersToolStripMenuItem.Size = new System.Drawing.Size(122, 22);
+            this.lecturersToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.lecturersToolStripMenuItem.Text = "Lecturers";
             // 
             // ProfilePanel
@@ -733,45 +735,46 @@
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.button2);
             this.groupBox2.Controls.Add(this.InquireBtn);
-            this.groupBox2.Location = new System.Drawing.Point(592, 17);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(542, 17);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(398, 412);
+            this.groupBox2.Size = new System.Drawing.Size(443, 425);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Update Info";
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(116, 114);
+            this.maskedTextBox1.Location = new System.Drawing.Point(156, 114);
             this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(196, 20);
+            this.maskedTextBox1.Size = new System.Drawing.Size(236, 22);
             this.maskedTextBox1.TabIndex = 63;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(116, 146);
+            this.textBox3.Location = new System.Drawing.Point(156, 146);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(196, 20);
+            this.textBox3.Size = new System.Drawing.Size(236, 22);
             this.textBox3.TabIndex = 62;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 83);
+            this.textBox2.Location = new System.Drawing.Point(156, 83);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 20);
+            this.textBox2.Size = new System.Drawing.Size(236, 22);
             this.textBox2.TabIndex = 61;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 52);
+            this.textBox1.Location = new System.Drawing.Point(156, 52);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 20);
+            this.textBox1.Size = new System.Drawing.Size(236, 22);
             this.textBox1.TabIndex = 60;
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(32, 211);
+            this.dataGridView2.Location = new System.Drawing.Point(47, 211);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(347, 137);
             this.dataGridView2.TabIndex = 59;
@@ -779,51 +782,51 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(29, 149);
+            this.label9.Location = new System.Drawing.Point(44, 149);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 13);
+            this.label9.Size = new System.Drawing.Size(105, 16);
             this.label9.TabIndex = 58;
             this.label9.Text = "e-mail Address :";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(29, 117);
+            this.label10.Location = new System.Drawing.Point(44, 117);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 13);
+            this.label10.Size = new System.Drawing.Size(83, 16);
             this.label10.TabIndex = 57;
             this.label10.Text = "Contact No. :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(29, 179);
+            this.label11.Location = new System.Drawing.Point(44, 179);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(196, 13);
+            this.label11.Size = new System.Drawing.Size(243, 16);
             this.label11.TabIndex = 56;
             this.label11.Text = "Add/Remove Extra Curricular Activities :";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(29, 86);
+            this.label12.Location = new System.Drawing.Point(44, 86);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(64, 13);
+            this.label12.Size = new System.Drawing.Size(79, 16);
             this.label12.TabIndex = 55;
             this.label12.Text = "Last Name :";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(29, 55);
+            this.label13.Location = new System.Drawing.Point(44, 55);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(63, 13);
+            this.label13.Size = new System.Drawing.Size(79, 16);
             this.label13.TabIndex = 54;
             this.label13.Text = "First Name :";
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(304, 373);
+            this.button2.Location = new System.Drawing.Point(319, 373);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 1;
@@ -832,7 +835,7 @@
             // 
             // InquireBtn
             // 
-            this.InquireBtn.Location = new System.Drawing.Point(219, 373);
+            this.InquireBtn.Location = new System.Drawing.Point(234, 373);
             this.InquireBtn.Name = "InquireBtn";
             this.InquireBtn.Size = new System.Drawing.Size(75, 23);
             this.InquireBtn.TabIndex = 0;
@@ -859,55 +862,57 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(13, 17);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(572, 412);
+            this.groupBox1.Size = new System.Drawing.Size(516, 425);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 264);
+            this.label5.Location = new System.Drawing.Point(26, 250);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 13);
+            this.label5.Size = new System.Drawing.Size(159, 16);
             this.label5.TabIndex = 4;
             this.label5.Text = "Extra Curricular Activities :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 136);
+            this.label4.Location = new System.Drawing.Point(26, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(43, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "Year :";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 106);
+            this.label3.Location = new System.Drawing.Point(26, 92);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 13);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Last Name :";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 75);
+            this.label2.Location = new System.Drawing.Point(26, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(79, 16);
             this.label2.TabIndex = 1;
             this.label2.Text = "First Name :";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(20, 46);
+            this.label1.Location = new System.Drawing.Point(26, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.Size = new System.Drawing.Size(83, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Student No. :";
             // 
@@ -932,6 +937,7 @@
             this.ResultsPanel.Controls.Add(this.label24);
             this.ResultsPanel.Controls.Add(this.label23);
             this.ResultsPanel.Controls.Add(this.tabControl1);
+            this.ResultsPanel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResultsPanel.Location = new System.Drawing.Point(0, 146);
             this.ResultsPanel.Name = "ResultsPanel";
             this.ResultsPanel.Size = new System.Drawing.Size(1000, 454);
@@ -943,12 +949,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1001, 600);
+            this.Controls.Add(this.ResultsPanel);
+            this.Controls.Add(this.ProfilePanel);
             this.Controls.Add(this.FeedbackPanel);
             this.Controls.Add(this.ReportYear1Panel);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.ProfilePanel);
             this.Controls.Add(this.label22);
-            this.Controls.Add(this.ResultsPanel);
             this.Controls.Add(this.labelback1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
