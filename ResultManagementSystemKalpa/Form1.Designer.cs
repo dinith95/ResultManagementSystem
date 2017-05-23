@@ -94,7 +94,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.BackColor = System.Drawing.Color.DarkRed;
+            this.textBox3.BackColor = System.Drawing.Color.PapayaWhip;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.ForeColor = System.Drawing.SystemColors.ActiveBorder;
@@ -121,13 +121,13 @@
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.DarkRed;
+            this.textBox1.BackColor = System.Drawing.Color.PapayaWhip;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Segoe Condensed", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(12, 69);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(139, 18);
+            this.textBox1.Size = new System.Drawing.Size(139, 17);
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "User Name";
             this.textBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.textBox1_MouseClick);
@@ -206,10 +206,10 @@
             // 
             this.labeltexthelp.AutoSize = true;
             this.labeltexthelp.BackColor = System.Drawing.Color.Transparent;
-            this.labeltexthelp.Font = new System.Drawing.Font("Segoe Marker", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltexthelp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeltexthelp.Location = new System.Drawing.Point(30, 194);
             this.labeltexthelp.Name = "labeltexthelp";
-            this.labeltexthelp.Size = new System.Drawing.Size(454, 36);
+            this.labeltexthelp.Size = new System.Drawing.Size(561, 36);
             this.labeltexthelp.TabIndex = 6;
             this.labeltexthelp.Text = "You Should have User Name and Password For loging this System.\r\nYou can Enter the" +
     "m in login panal.In a about panal You can Know About this System.";
@@ -218,10 +218,10 @@
             // 
             this.labeltxtabout.AutoSize = true;
             this.labeltxtabout.BackColor = System.Drawing.Color.Transparent;
-            this.labeltxtabout.Font = new System.Drawing.Font("Segoe Marker", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labeltxtabout.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labeltxtabout.Location = new System.Drawing.Point(59, 194);
             this.labeltxtabout.Name = "labeltxtabout";
-            this.labeltxtabout.Size = new System.Drawing.Size(268, 54);
+            this.labeltxtabout.Size = new System.Drawing.Size(334, 54);
             this.labeltxtabout.TabIndex = 0;
             this.labeltxtabout.Text = "This System devoloped by MIT 2nd year studends\r\nas their coures project.\r\nYou can" +
     " use this System for Analize yor Results.\r\n";
@@ -237,8 +237,8 @@
             this.Controls.Add(this.labelhelp);
             this.Controls.Add(this.labelabout);
             this.Controls.Add(this.labellogin);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnsignin);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "frmlogin";
             this.Text = "Login";

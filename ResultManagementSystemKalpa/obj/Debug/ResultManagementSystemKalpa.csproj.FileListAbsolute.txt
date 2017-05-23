@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
 c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
 c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
@@ -49,3 +50,59 @@ C:\Users\Dharshitha\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug
 C:\Users\Dharshitha\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
 C:\Users\Dharshitha\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
 C:\Users\Dharshitha\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+=======
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+c:\users\kalpa\documents\visual studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLectures.resources
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmstudents.resources
+C:\Users\kalpa\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+C:\Users\Dharshitha\Documents\Visual Studio 2015\Projects\ResultManagementSystemKalpa\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmStudents.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLecturers.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmStudents.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLecturers.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+C:\Users\kalpa\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\Database81.accdb
+F:\dinith work\git hub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\Database81.accdb
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csprojResolveAssemblyReference.cache
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmlogin.resources
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmStudents.resources
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmLecturers.resources
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.frmadmin.resources
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.Properties.Resources.resources
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.csproj.GenerateResource.Cache
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe.config
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\Database81.accdb
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.exe
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\bin\Debug\ResultManagementSystemKalpa.pdb
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.exe
+C:\Users\Dyl Nesh\Documents\GitHub\ResultManagementSystem\ResultManagementSystemKalpa\obj\Debug\ResultManagementSystemKalpa.pdb
+>>>>>>> 3a37741b48fbd55cbd341f0e9a522965284bdd80

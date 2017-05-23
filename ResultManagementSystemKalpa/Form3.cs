@@ -17,13 +17,6 @@ namespace ResultManagementSystemKalpa
         public frmLecturers()
         {
             InitializeComponent();
-            labelProfile2.Visible = false;
-            labelResManager2.Visible = false;
-            labelAnalize2.Visible = false;
-            panelProfile.Visible = true;
-           
-            panelResultsManager.Visible = false;
-            panelAnalizeFeedback.Visible = false;
            
 
         }
@@ -82,7 +75,7 @@ namespace ResultManagementSystemKalpa
 
         private void label2_MouseEnter(object sender, EventArgs e)
         {
-           labelAnalize2.Visible = true;
+           
         }
 
         private void label7_Click(object sender, EventArgs e)
@@ -116,38 +109,68 @@ namespace ResultManagementSystemKalpa
 
         private void labelProfile1_MouseEnter(object sender, EventArgs e)
         {
-            labelProfile2.Visible = true;
+            
         }
 
         private void labelProfile2_MouseLeave(object sender, EventArgs e)
         {
-            labelProfile2.Visible = false; 
+            
         }
 
         private void labelProfile2_Click(object sender, EventArgs e)
         {
-            panelProfile.Show();
-            panelResultsManager.Hide();
-            panelAnalizeFeedback.Hide() ;
+            
         }
 
         private void labelResultsManager1_MouseEnter(object sender, EventArgs e)
         {
-            labelResManager2.Visible = true;
-        }
+        }    
 
         private void labelResultsManager2_MouseLeave(object sender, EventArgs e)
         {
-            labelResManager2.Visible = false; 
+            
         }
 
         private void labelResultsManager2_Click(object sender, EventArgs e)
         {
            
-             panelResultsManager.Show();
-            panelAnalizeFeedback.Hide();
-             panelProfile.Hide();
             
+            
+        }
+
+        private void profileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ProfilePanel.BringToFront();
+        }
+
+        private void resultsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void feedbackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FeedbackPanel.BringToFront();
+        }
+
+        private void addResultsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddResultsPanel.BringToFront();
+        }
+
+        private void checkResultsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ResultsPanel.BringToFront();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            RatingsPanel.BringToFront();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Feedbacks.BringToFront();
         }
     }
 }
